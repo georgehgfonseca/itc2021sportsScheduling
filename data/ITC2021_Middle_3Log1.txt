@@ -1,0 +1,40 @@
+java -jar itc2021.jar ITC2021_Middle_3.xml ITC2021_Middle_3Soln.xml -start ITC2021_Middle_3Soln.xml -seed 1 -time 10800 -verbose 0 -fixOptTime 100
+
+Instance....: Middle3
+Algorithm...: ILS (rnaMax=50K, itersP=50, p0=1, pMax=20)
+Other params: maxIters=1000K, seed=1, timeLimit=10800.00s
+
+    /------------------------------------------------------------\
+    |     Iter |   Gap(%) |         S* |         S' |       Time | 
+    |----------|----------|------------|------------|------------|
+Academic license - for non-commercial use only - expires 2021-06-11
+    |        0 |        - |       9864 |       9864 |       1.80 | s0
+    | ILS perturbation level=1                      |    4237.95 | 
+    |      50K |        - |       9864 |       9864 |    4237.97 | p-1
+    |     100K |        - |       9864 |       9864 |    8432.02 | 
+    |     100K |        - |       9864 |       9864 |    8432.02 | p-1
+    | ILS perturbation level=1                      |    8432.02 | 
+    |     100K |        - |       9864 |       9864 |    8432.03 | p-1
+    |     128K |        - |       9864 |       9864 |   10802.58 | p-1
+    \------------------------------------------------------------/
+
+Neighborhoods statistics (values in %):
+
+    /----------------------------------------------------------------\
+    | Move               | Improvs. | Sideways |  Accepts |  Rejects |
+    |--------------------|----------|----------|----------|----------|
+    | PartialRoundSwap   |        0 |        0 |        0 |      16K |
+    | SwapHomeTeam       |        0 |      158 |      158 |      16K |
+    | SwapSlots          |        0 |        0 |        0 |      16K |
+    | SwapTeams          |        0 |        0 |        0 |      16K |
+    | 2-SwapSlots        |        0 |       39 |       39 |      16K |
+    | 2-SwapSlots        |        0 |        0 |        0 |      16K |
+    | 2-SwapHomeTeams    |        0 |      136 |      136 |      16K |
+    | 2-SwapHomeTeams    |        0 |        2 |        2 |      16K |
+    | SlotsMIP           |        0 |      160 |      160 |        0 |
+    | TeamsMIP           |        0 |      170 |      170 |        0 |
+    \----------------------------------------------------------------/
+
+Best cost.........: 9864
+N. of Iterations..: 127882
+Total runtime.....: 10802.58s

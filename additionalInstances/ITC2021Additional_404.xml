@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Instance>
+    <MetaData>
+        <InstanceName>ITC2021Additional_404.xml</InstanceName>
+        <DataType>A</DataType>
+        <Contributor>ITC2021</Contributor>
+        <Date year="2022" month="12"/>
+    </MetaData>
+    <Structure>
+        <Format leagueIds="0">
+            <numberRoundRobin>2</numberRoundRobin>
+            <compactness>C</compactness>
+            <gameMode>NULL</gameMode>
+        </Format>
+    </Structure>
+    <ObjectiveFunction>
+        <Objective>SC</Objective>
+    </ObjectiveFunction>
+    <Resources>
+        <Leagues>
+            <league id="0" leagueGroups="" name="League 0"/>
+        </Leagues>
+        <Teams>
+            <team id="0" league="0" name="Team 0"/>
+            <team id="1" league="0" name="Team 1"/>
+            <team id="2" league="0" name="Team 2"/>
+            <team id="3" league="0" name="Team 3"/>
+            <team id="4" league="0" name="Team 4"/>
+            <team id="5" league="0" name="Team 5"/>
+            <team id="6" league="0" name="Team 6"/>
+            <team id="7" league="0" name="Team 7"/>
+            <team id="8" league="0" name="Team 8"/>
+            <team id="9" league="0" name="Team 9"/>
+            <team id="10" league="0" name="Team 10"/>
+            <team id="11" league="0" name="Team 11"/>
+            <team id="12" league="0" name="Team 12"/>
+            <team id="13" league="0" name="Team 13"/>
+            <team id="14" league="0" name="Team 14"/>
+            <team id="15" league="0" name="Team 15"/>
+            <team id="16" league="0" name="Team 16"/>
+            <team id="17" league="0" name="Team 17"/>
+        </Teams>
+        <Slots>
+            <slot id="0" name="Slot 0"/>
+            <slot id="1" name="Slot 1"/>
+            <slot id="2" name="Slot 2"/>
+            <slot id="3" name="Slot 3"/>
+            <slot id="4" name="Slot 4"/>
+            <slot id="5" name="Slot 5"/>
+            <slot id="6" name="Slot 6"/>
+            <slot id="7" name="Slot 7"/>
+            <slot id="8" name="Slot 8"/>
+            <slot id="9" name="Slot 9"/>
+            <slot id="10" name="Slot 10"/>
+            <slot id="11" name="Slot 11"/>
+            <slot id="12" name="Slot 12"/>
+            <slot id="13" name="Slot 13"/>
+            <slot id="14" name="Slot 14"/>
+            <slot id="15" name="Slot 15"/>
+            <slot id="16" name="Slot 16"/>
+            <slot id="17" name="Slot 17"/>
+            <slot id="18" name="Slot 18"/>
+            <slot id="19" name="Slot 19"/>
+            <slot id="20" name="Slot 20"/>
+            <slot id="21" name="Slot 21"/>
+            <slot id="22" name="Slot 22"/>
+            <slot id="23" name="Slot 23"/>
+            <slot id="24" name="Slot 24"/>
+            <slot id="25" name="Slot 25"/>
+            <slot id="26" name="Slot 26"/>
+            <slot id="27" name="Slot 27"/>
+            <slot id="28" name="Slot 28"/>
+            <slot id="29" name="Slot 29"/>
+            <slot id="30" name="Slot 30"/>
+            <slot id="31" name="Slot 31"/>
+            <slot id="32" name="Slot 32"/>
+            <slot id="33" name="Slot 33"/>
+        </Slots>
+    </Resources>
+    <Constraints>
+        <BasicConstraints/>
+        <CapacityConstraints>
+            <CA1 max="1" min="0" mode="A" penalty="1" slots="30;28" teams="4" type="HARD"/>
+            <CA1 max="1" min="0" mode="H" penalty="1" slots="30;5;11" teams="8" type="HARD"/>
+            <CA1 max="1" min="0" mode="A" penalty="1" slots="9;29" teams="1" type="HARD"/>
+            <CA1 max="1" min="0" mode="A" penalty="1" slots="6;13;3" teams="7" type="HARD"/>
+            <CA1 max="1" min="0" mode="A" penalty="1" slots="0;13;16" teams="12" type="HARD"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slots="4" teams="5" type="HARD"/>
+            <CA1 max="0" min="0" mode="A" penalty="1" slots="26" teams="0" type="HARD"/>
+            <CA1 max="1" min="0" mode="A" penalty="1" slots="29;17;12;27" teams="2" type="HARD"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slots="8" teams="0" type="HARD"/>
+            <CA1 max="0" min="0" mode="A" penalty="1" slots="25" teams="15" type="HARD"/>
+            <CA1 max="0" min="0" mode="A" penalty="1" slots="14" teams="7" type="HARD"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slots="20" teams="6" type="HARD"/>
+            <CA1 max="1" min="0" mode="A" penalty="1" slots="8;2" teams="11" type="HARD"/>
+            <CA1 max="0" min="0" mode="A" penalty="1" slots="5" teams="0" type="HARD"/>
+            <CA1 max="1" min="0" mode="H" penalty="1" slots="23;13;7" teams="15" type="HARD"/>
+            <CA1 max="1" min="0" mode="A" penalty="1" slots="22;0" teams="17" type="HARD"/>
+            <CA1 max="1" min="0" mode="H" penalty="1" slots="9;11;26" teams="6" type="HARD"/>
+            <CA1 max="2" min="0" mode="A" penalty="1" slots="4;30;9;6" teams="10" type="HARD"/>
+            <CA1 max="1" min="0" mode="H" penalty="1" slots="5;6;7" teams="15" type="HARD"/>
+            <CA1 max="1" min="0" mode="H" penalty="1" slots="9;21;17;32" teams="0" type="HARD"/>
+            <CA1 max="1" min="0" mode="H" penalty="1" slots="29;11;20;27" teams="6" type="HARD"/>
+            <CA1 max="1" min="0" mode="H" penalty="1" slots="31;19;26" teams="7" type="HARD"/>
+            <CA1 max="1" min="0" mode="H" penalty="1" slots="6;3" teams="13" type="HARD"/>
+            <CA1 max="1" min="0" mode="A" penalty="1" slots="6;13;26;20" teams="2" type="HARD"/>
+            <CA1 max="0" min="0" mode="A" penalty="1" slots="20" teams="5" type="HARD"/>
+            <CA1 max="0" min="0" mode="A" penalty="1" slots="10" teams="8" type="HARD"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slots="16" teams="9" type="HARD"/>
+            <CA1 max="1" min="0" mode="A" penalty="1" slots="1;13" teams="13" type="HARD"/>
+            <CA1 max="1" min="0" mode="A" penalty="1" slots="17;18;8" teams="14" type="HARD"/>
+            <CA1 max="1" min="0" mode="H" penalty="1" slots="23;4;3" teams="14" type="HARD"/>
+            <CA1 max="1" min="0" mode="H" penalty="1" slots="18;16" teams="9" type="HARD"/>
+            <CA1 max="1" min="0" mode="A" penalty="1" slots="5;31;8" teams="12" type="HARD"/>
+            <CA1 max="0" min="0" mode="A" penalty="1" slots="8" teams="11" type="HARD"/>
+            <CA1 max="1" min="0" mode="A" penalty="1" slots="29;16" teams="2" type="HARD"/>
+            <CA1 max="0" min="0" mode="A" penalty="1" slots="1" teams="2" type="HARD"/>
+            <CA1 max="1" min="0" mode="H" penalty="1" slots="23;12;33;7" teams="14" type="HARD"/>
+            <CA1 max="0" min="0" mode="A" penalty="1" slots="28" teams="6" type="HARD"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slots="13" teams="11" type="HARD"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slots="14" teams="10" type="HARD"/>
+            <CA1 max="2" min="0" mode="A" penalty="1" slots="18;12;26;2" teams="14" type="HARD"/>
+            <CA1 max="1" min="0" mode="A" penalty="1" slots="8;33;7" teams="11" type="HARD"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slots="25" teams="2" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="23;28;10;27" teams1="13" teams2="2;15;10;11" type="HARD"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="23;4;1;13;33;32" teams1="7" teams2="16;4;8;3;13;0" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="0" teams1="13" teams2="0" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="28;13;16;32" teams1="11" teams2="16;17;13;0" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="5;1;6;32" teams1="12" teams2="16;17;2;10" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="19" teams1="11" teams2="14" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="14" teams1="7" teams2="11" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="22;5;17;13;32" teams1="1" teams2="16;3;13;11;0" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="22" teams1="7" teams2="11" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="1" teams1="13" teams2="2" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="27" teams1="8" teams2="17" type="HARD"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="24;4;6;10;33;26" teams1="10" teams2="9;4;7;1;13;15" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="12" teams1="7" teams2="0" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="12" teams1="13" teams2="6" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="1" teams1="13" teams2="0" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="33" teams1="16" teams2="11" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="18" teams1="7" teams2="2" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="21;28;5;14" teams1="0" teams2="16;15;14;10" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="24" teams1="2" teams2="12" type="HARD"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="23;24;14;32;20;27" teams1="1" teams2="4;7;17;2;15;10" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="5;0;17;13;27" teams1="7" teams2="6;3;17;15;11" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="5;8;33;26" teams1="11" teams2="4;8;15;0" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="30" teams1="11" teams2="17" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="28" teams1="6" teams2="15" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="23;4;17;10" teams1="6" teams2="16;8;13;11" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="29;6;19;3" teams1="15" teams2="5;16;4;8" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="25;4;14;0;32" teams1="7" teams2="16;3;17;15;11" type="HARD"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="15;24;22;6;11;27" teams1="17" teams2="16;4;1;2;13;14" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="32" teams1="4" teams2="9" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="12" teams1="8" teams2="2" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="18" teams1="8" teams2="16" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="22" teams1="1" teams2="12" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="15" teams1="3" teams2="14" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="23;15;24;30;3" teams1="14" teams2="9;8;7;1;15" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="27" teams1="1" teams2="4" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="15;22;5;18" teams1="3" teams2="6;17;2;10" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="27" teams1="10" teams2="0" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="8" teams1="0" teams2="12" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="13" teams1="11" teams2="13" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="5" teams1="2" teams2="11" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="30" teams1="3" teams2="16" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="15;24;29;8" teams1="12" teams2="9;16;4;0" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="8" teams1="8" teams2="1" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="30" teams1="1" teams2="12" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="13" teams1="12" teams2="14" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="3" teams1="0" teams2="7" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="3" teams1="15" teams2="1" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="32" teams1="8" teams2="14" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="8" teams1="12" teams2="0" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="22" teams1="17" teams2="3" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="7" teams1="7" teams2="2" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="8" teams1="5" teams2="13" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="3" teams1="5" teams2="12" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="24" teams1="9" teams2="7" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="25" teams1="7" teams2="9" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="15;6;10;33;11" teams1="4" teams2="8;3;17;14;0" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="22;1;3;33;11" teams1="6" teams2="16;8;3;13;10" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="25;19;13;12" teams1="0" teams2="16;6;14;10" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="14" teams1="3" teams2="5" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="7" teams1="11" teams2="3" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="8" teams1="15" teams2="11" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="18;16;33;11;7" teams1="14" teams2="16;7;2;10;12" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="13" teams1="4" teams2="16" type="HARD"/>
+            <CA2 max="3" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="31;19;13;8;16;20" teams1="1" teams2="4;7;17;2;15;12" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="4;22;6;10;7" teams1="3" teams2="16;6;4;13;15" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="28" teams1="4" teams2="14" type="HARD"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="1" slots="4;29;19;18;3;8" teams1="13" teams2="5;16;6;17;15;11" type="HARD"/>
+            <CA2 max="0" min="0" mode1="A" mode2="GLOBAL" penalty="1" slots="12" teams1="5" teams2="14" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="31" teams1="10" teams2="2" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="14" teams1="0" teams2="1" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="32" teams1="1" teams2="12" type="HARD"/>
+            <CA2 max="0" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="9" teams1="17" teams2="13" type="HARD"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="21;29;18;3;33;11;20" teams1="0" teams2="5;9;17;2;13;15;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;5;6;10;11;2;32" teams1="12" teams2="9;6;7;17;2;13;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;23;30;31;17;8;7" teams1="15" teams2="4;8;1;14;10;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;22;21;6;0;13;33;32" teams1="10" teams2="5;8;7;3;1;2;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="22;1;29;19;3;7;2" teams1="5" teams2="9;16;6;8;3;13;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;9;0;18;3;12;8" teams1="0" teams2="16;6;4;17;13;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;21;0;17;12;11;20" teams1="1" teams2="5;16;6;3;17;15;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="28;1;31;18;13;33" teams1="16" teams2="8;13;14;10;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;24;4;6;17;3;11;32" teams1="4" teams2="5;16;6;7;1;17;2;10" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="28;31;6;0;18;12;33;2" teams1="4" teams2="5;6;7;1;2;15;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;15;4;22;1;31;7;32" teams1="15" teams2="9;4;3;1;17;14;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;21;5;14;3;8" teams1="8" teams2="5;9;1;17;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;4;29;19;33;11;2" teams1="0" teams2="9;8;7;3;13;15;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;30;5;17;16;26" teams1="16" teams2="3;1;17;2;13;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;24;31;19;18;33" teams1="6" teams2="8;3;17;13;15;14" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;28;14;10;18;33;11" teams1="2" teams2="5;4;3;1;17;10;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;15;30;28;1;33;11;20" teams1="4" teams2="16;8;3;17;2;13;15;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;14;17;10;13;26" teams1="4" teams2="16;2;13;10;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;4;22;30;21;14;6;17" teams1="15" teams2="5;8;3;1;14;11;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="30;14;6;18;33;26;27" teams1="2" teams2="9;16;1;17;13;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;15;30;9;1;29" teams1="1" teams2="8;7;17;2;13;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;28;5;19;16;2;27" teams1="3" teams2="16;6;8;1;2;13;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;9;29;0;17;18;7" teams1="8" teams2="5;9;16;6;13;15;14" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;1;31;26;2;27" teams1="6" teams2="5;8;15;10;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;22;28;1;0;11;32" teams1="1" teams2="16;6;4;3;17;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;15;21;12;16;26;20" teams1="6" teams2="16;3;1;13;15;14;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="30;1;19;13;33;26" teams1="0" teams2="16;6;8;7;15;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;15;30;31;12;27" teams1="6" teams2="5;1;2;15;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="1;14;29;18;3;8" teams1="12" teams2="16;6;8;7;2;13" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;22;21;29;17;19;26;27" teams1="3" teams2="5;9;1;17;15;14;10;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;22;28;31;17;3;7;32" teams1="2" teams2="16;6;3;17;15;14;11;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;24;30;9;13;7;20" teams1="7" teams2="9;1;13;15;14;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;22;30;5;31;2" teams1="3" teams2="9;4;8;7;2;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;22;31;6;18;13;12" teams1="14" teams2="5;4;3;2;11;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;5;19;18;8;33;7" teams1="14" teams2="6;4;7;3;13;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;17;10;13;3;33;26;20" teams1="7" teams2="5;9;6;8;17;14;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;9;5;19;16;7;26" teams1="4" teams2="16;6;3;1;15;10;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;1;29;16;7;32;27" teams1="0" teams2="4;8;7;3;1;2;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;0;17;19;13;3" teams1="8" teams2="5;3;1;14;11;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;14;29;10;12;33;2;20" teams1="5" teams2="9;16;4;8;7;1;2;13" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;24;9;28;17;18;12;11" teams1="5" teams2="16;6;1;13;15;14;10;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="28;1;29;19;3;11;7;2" teams1="5" teams2="9;16;6;4;8;17;2;10" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="28;0;17;19;18;12;16;33" teams1="17" teams2="4;8;7;3;2;13;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;15;24;30;31;26" teams1="3" teams2="9;16;17;14;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;31;17;10;13;33;32" teams1="6" teams2="5;4;8;7;3;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;30;21;28;14;18;33;2" teams1="1" teams2="9;6;4;8;17;13;14;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;24;4;28;29;13;27" teams1="6" teams2="5;16;4;8;3;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="14;29;8;33;11;26;20" teams1="8" teams2="4;2;13;15;10;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;9;5;14;29;19;18;27" teams1="1" teams2="6;4;8;7;3;17;13;10" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;22;1;13;7;20" teams1="5" teams2="16;3;17;10;11;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="30;10;19;8;26;2;27" teams1="6" teams2="16;8;1;2;13;15;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="29;0;12;11;26;32;27" teams1="3" teams2="5;16;6;8;17;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="1;14;6;10;19;13;12" teams1="9" teams2="7;17;2;13;14;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;28;1;31;17;33;2" teams1="14" teams2="9;16;6;7;17;13;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;22;28;29;18;8;2" teams1="3" teams2="16;8;13;15;14;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;15;24;21;29;17;10" teams1="2" teams2="5;16;6;8;7;14;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="4;9;5;14;3;16" teams1="14" teams2="5;6;4;7;15;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;30;21;31;7;32;20;27" teams1="0" teams2="9;6;8;7;3;17;13;14" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;5;29;18;8;27" teams1="1" teams2="16;15;14;10;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;28;17;10;18;16;33" teams1="17" teams2="5;16;4;8;2;13;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;29;17;12;7;26;20" teams1="12" teams2="4;7;3;17;13;14;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;15;24;9;6;3;8;2" teams1="8" teams2="5;9;7;17;2;13;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;1;0;12;26;20;27" teams1="15" teams2="5;16;7;3;17;14;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;28;17;19;8;16;7;27" teams1="17" teams2="5;9;6;4;2;15;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;29;19;13;8;11;26;2" teams1="13" teams2="9;16;4;7;1;15;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="30;21;0;18;13;8;32;27" teams1="11" teams2="9;16;7;3;1;17;13;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;4;0;18;13;3;20" teams1="12" teams2="4;8;7;1;13;15;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;21;14;31;18;16;33" teams1="5" teams2="7;2;13;15;11;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;24;14;6;0;10;18;27" teams1="10" teams2="5;9;7;17;2;15;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="29;13;12;11;2;20" teams1="1" teams2="5;16;6;2;13;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;4;6;19;13;8;11;27" teams1="13" teams2="5;8;7;3;15;10;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;30;6;17;11;32;20" teams1="5" teams2="4;7;1;2;13;14;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="5;14;31;13;3;11" teams1="17" teams2="5;6;3;1;2;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;21;1;6;11;32" teams1="16" teams2="5;8;7;15;14;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;4;14;6;2;27" teams1="0" teams2="9;4;8;2;13;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="9;14;29;6;8;11;7;26" teams1="5" teams2="6;4;3;2;15;14;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;24;30;14;31;12" teams1="8" teams2="9;3;2;13;14;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;9;21;17;10;18;12;32" teams1="13" teams2="5;16;4;8;1;2;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;1;6;0;13;3;8" teams1="8" teams2="9;1;17;14;10;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="9;28;17;18;16;7;27" teams1="2" teams2="5;16;6;8;3;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;23;24;9;19;11;20" teams1="15" teams2="5;9;4;8;3;10;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;24;4;30;9;17;10;18" teams1="10" teams2="5;9;6;8;1;13;11;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;28;1;6;0;13;12;7" teams1="13" teams2="5;16;4;7;1;11;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="9;14;18;13;7;20" teams1="17" teams2="5;9;6;8;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;24;4;28;14;6;33;27" teams1="4" teams2="5;16;8;1;2;15;14;10" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="9;21;28;5;1;18;11;27" teams1="1" teams2="5;9;6;7;17;14;11;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;22;30;28;6;10;8;11" teams1="1" teams2="9;6;4;3;17;10;11;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;22;21;14;31;8;16;33" teams1="6" teams2="5;16;4;7;17;2;10;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="21;28;14;0;18;13;12;2" teams1="17" teams2="5;16;6;7;3;15;14;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;24;22;21;5;18;11;2" teams1="14" teams2="5;9;1;17;2;15;10;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;28;1;29;6;10;12;32" teams1="14" teams2="5;9;6;4;17;2;10;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;23;22;21;17;16;26;32" teams1="14" teams2="9;4;8;1;13;15;10;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="21;1;6;17;18;13;11;20" teams1="1" teams2="6;7;3;17;15;14;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;31;6;0;17;33;11;32" teams1="13" teams2="16;4;7;3;15;14;11;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="30;28;29;8;32;27" teams1="16" teams2="5;4;8;3;1;14" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;30;28;1;0;2;20" teams1="3" teams2="5;4;1;2;15;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;14;19;3;7;27" teams1="2" teams2="16;7;13;15;14;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;24;1;6;11;26" teams1="0" teams2="9;6;4;7;2;15" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;23;24;5;14;17;12;20" teams1="0" teams2="9;4;7;17;2;13;14;10" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;24;14;17;12;16;20;27" teams1="17" teams2="5;16;6;4;3;15;14;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="31;8;11;32;20;27" teams1="9" teams2="5;6;8;14;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;4;14;10;26;20" teams1="9" teams2="6;17;2;13;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;24;30;28;29;12" teams1="0" teams2="5;4;3;13;15;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;24;22;9;5;27" teams1="14" teams2="16;6;4;8;17;15" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;4;30;9;28;29;0;27" teams1="16" teams2="5;8;7;3;1;17;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="22;6;19;13;26;32;27" teams1="17" teams2="9;1;15;14;10;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="29;6;0;17;10;16;26" teams1="2" teams2="9;16;6;3;1;14;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;4;9;19;12;7" teams1="9" teams2="16;3;1;13;14;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;14;31;18;3;16" teams1="11" teams2="5;7;3;2;13;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;22;30;28;17;11;20" teams1="11" teams2="5;9;16;6;1;17;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;28;5;31;6;11;26;27" teams1="10" teams2="9;6;4;8;7;3;2;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="4;9;5;1;29;13;11;27" teams1="10" teams2="5;6;4;3;1;17;2;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;24;31;29;0;17;13;8" teams1="3" teams2="9;4;1;17;13;15;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;9;28;1;31;10" teams1="3" teams2="16;7;13;15;11;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;28;29;19;12;8" teams1="0" teams2="9;8;7;3;2;15" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="4;9;21;17;3;11;7;26" teams1="8" teams2="9;16;4;17;13;15;14;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="9;29;19;13;16;2" teams1="5" teams2="9;16;6;8;17;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;15;9;21;31;0;16;27" teams1="6" teams2="5;9;4;1;13;14;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;9;28;12;8;2" teams1="5" teams2="16;6;17;2;13;15" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="21;28;29;17;19;12" teams1="6" teams2="9;16;8;7;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;30;5;18;12;26" teams1="0" teams2="9;6;4;3;1;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="14;31;17;10;18;11;32" teams1="15" teams2="5;6;4;8;13;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;15;21;31;29;6;26" teams1="10" teams2="9;4;8;7;15;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;4;21;5;17;12;16;27" teams1="17" teams2="16;4;7;3;1;13;14;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;24;22;5;29;19;12;26" teams1="7" teams2="5;9;3;1;17;13;11;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;1;14;19;32;27" teams1="6" teams2="9;7;3;17;13;15" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="30;9;5;14;7;20;27" teams1="8" teams2="6;4;1;13;14;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="30;1;14;19;2;27" teams1="0" teams2="5;9;8;7;17;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;1;14;31;6;27" teams1="5" teams2="9;7;2;15;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="22;29;17;19;12;7" teams1="16" teams2="5;4;8;17;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="22;21;29;12;33;26;27" teams1="0" teams2="9;7;3;1;2;14;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;15;28;13;33;11;7;2" teams1="17" teams2="5;9;6;8;13;10;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;28;5;1;16;7;26" teams1="4" teams2="16;8;3;17;2;14;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;9;14;6;13;16;33;26" teams1="11" teams2="4;8;7;15;14;10;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;15;9;21;19;18;3" teams1="14" teams2="16;6;2;13;15;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;30;21;0;18;13;16;26" teams1="0" teams2="5;9;16;8;3;2;13;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="21;28;29;17;19;8;32" teams1="1" teams2="9;8;7;13;15;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;22;30;21;31;6;19;11" teams1="3" teams2="5;9;6;4;1;17;2;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;30;9;28;14;0;17;11" teams1="12" teams2="5;9;16;6;1;2;13;15" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="9;21;31;0;19;12;8;20" teams1="13" teams2="6;4;7;3;1;2;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="4;1;0;19;8;7;2;27" teams1="6" teams2="9;7;3;15;14;11;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;21;6;17;16;11;32" teams1="11" teams2="5;16;4;8;1;2;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;29;0;16;11;27" teams1="7" teams2="4;3;17;14;11;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;9;28;31;29;19;33;20" teams1="7" teams2="16;8;3;1;17;11;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;1;29;3;8;26;2" teams1="15" teams2="5;9;6;8;3;17;10" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;22;1;0;17;13;3;11" teams1="14" teams2="5;9;6;4;3;2;10;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;15;21;5;1;0" teams1="14" teams2="6;4;8;1;15;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;1;14;31;0;12;16;11" teams1="16" teams2="5;9;6;4;3;2;10;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;15;24;9;28;6;33;20" teams1="17" teams2="5;6;8;7;15;14;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;21;0;17;19;18;3;8" teams1="0" teams2="16;7;3;1;2;10;11;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;5;19;13;2;20;27" teams1="11" teams2="16;7;1;13;15;14;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="1;31;0;10;19;8" teams1="6" teams2="3;17;2;15;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;22;0;17;18;12;11" teams1="8" teams2="5;16;7;1;15;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;4;9;29;13;32" teams1="10" teams2="9;7;3;17;2;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;5;0;18;3;16;20" teams1="10" teams2="6;4;8;3;2;11;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;22;14;16;33;26;2;27" teams1="5" teams2="9;4;8;7;13;15;14;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="4;9;31;3;16;7;32" teams1="12" teams2="9;6;1;17;13;10;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;4;29;6;0;17;12;8" teams1="7" teams2="9;6;8;1;17;13;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;15;22;9;14;19;12" teams1="6" teams2="9;4;8;2;15;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;30;21;14;0;7" teams1="6" teams2="9;8;3;17;13;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="5;1;6;10;19;8;7" teams1="7" teams2="5;8;1;17;13;14;10" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;28;6;13;12;8;26;32" teams1="14" teams2="9;6;4;8;2;13;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;30;9;5;18;3;7" teams1="6" teams2="9;7;1;17;13;15;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;28;5;31;0;8" teams1="11" teams2="5;9;3;1;2;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;4;28;0;10;11" teams1="0" teams2="9;6;7;3;17;13" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;22;9;5;29;11;2" teams1="3" teams2="5;8;7;1;15;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="5;10;19;12;7;32" teams1="5" teams2="9;16;6;4;3;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;18;8;33;26;2" teams1="3" teams2="4;8;7;17;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;28;14;16;11;7" teams1="8" teams2="5;16;17;14;10;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;30;5;0;17;13;33;7" teams1="10" teams2="5;6;8;3;17;2;15;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;23;22;30;21;0;32" teams1="15" teams2="5;4;17;13;10;11;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;30;28;10;18;32" teams1="15" teams2="8;1;17;14;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="28;6;17;19;3;16;27" teams1="5" teams2="9;16;8;7;3;1;2" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;17;19;8;16;33;26;2" teams1="10" teams2="4;8;1;17;13;15;14;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;30;9;31;19;8;2;27" teams1="14" teams2="5;16;8;7;2;13;15;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;24;22;9;28;12;32" teams1="14" teams2="8;3;17;13;15;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;9;28;5;31;29;19;8" teams1="4" teams2="16;8;7;17;15;14;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;22;29;19;18;11;32" teams1="8" teams2="6;2;13;15;14;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;15;28;17;10;13;8;2" teams1="12" teams2="9;16;6;8;7;3;17;15" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;5;8;33;7;26;27" teams1="13" teams2="16;8;3;1;17;15;14" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="9;14;0;17;19;7" teams1="17" teams2="9;6;4;8;13;10" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;23;5;10;13;16;33" teams1="7" teams2="6;17;2;13;14;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;22;9;0;12;11;2" teams1="14" teams2="9;4;3;17;13;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;30;5;14;13;7" teams1="4" teams2="5;8;1;13;15;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;15;22;31;12;26;27" teams1="11" teams2="6;4;3;15;10;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;14;17;8;20;27" teams1="1" teams2="4;7;17;15;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="9;5;6;18;8;2" teams1="14" teams2="9;8;3;1;13;10" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;22;18;16;20;27" teams1="12" teams2="16;4;17;15;11;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="30;21;12;33;11;2;20" teams1="15" teams2="5;8;7;2;13;14;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;19;18;12;16;33;11;2" teams1="4" teams2="16;3;17;2;13;15;14;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;28;1;6;17;16;11;20" teams1="6" teams2="7;3;1;17;2;13;15;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;15;4;21;31;8" teams1="6" teams2="9;7;3;14;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;15;14;19;16;7" teams1="4" teams2="9;16;8;17;13;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;24;18;3;12;32" teams1="0" teams2="6;8;7;17;15;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="4;9;21;29;18;16;7;20" teams1="14" teams2="9;6;8;7;3;1;2;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="21;31;29;6;19;7" teams1="3" teams2="5;6;4;8;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;15;21;31;3;11;2" teams1="15" teams2="5;8;7;17;13;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;22;1;10;18;8;32" teams1="8" teams2="16;6;4;1;17;13;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="4;22;1;6;0;8;33" teams1="4" teams2="8;7;1;13;14;10;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="28;29;0;13;8;16;33;32" teams1="0" teams2="6;4;3;1;13;10;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="31;13;3;16;33;26;32" teams1="5" teams2="16;8;7;3;1;17;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;5;0;19;18;8" teams1="14" teams2="5;9;6;4;1;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="28;29;6;18;3;11;7;32" teams1="4" teams2="5;8;7;3;13;10;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;9;28;14;29;6;0;13" teams1="2" teams2="5;9;4;1;17;14;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;21;8;11;26;2;32" teams1="10" teams2="16;4;8;3;1;13;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;4;1;31;0;13;12;11" teams1="13" teams2="5;16;6;7;3;15;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;30;1;31;19;13;8;32" teams1="0" teams2="16;3;1;17;13;15;14;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="31;6;19;18;12;7" teams1="7" teams2="16;4;1;2;13;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;24;19;18;12;33;7" teams1="7" teams2="5;9;6;8;2;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;30;21;28;6;8;32" teams1="0" teams2="9;6;8;1;13;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;9;31;13;8;7;2;20" teams1="17" teams2="5;16;6;7;1;15;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;4;29;6;11;27" teams1="11" teams2="5;9;4;7;3;2" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;31;6;18;16;33;11;26" teams1="17" teams2="5;9;6;4;7;13;14;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="30;5;29;10;18;2" teams1="9" teams2="5;6;4;3;10;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;21;5;29;17;19;3;8" teams1="7" teams2="5;9;6;1;13;14;10;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;24;5;29;10;19;3;12" teams1="10" teams2="9;16;6;8;3;15;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;28;1;6;3;32;27" teams1="16" teams2="5;3;1;2;13;15;14" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;21;28;5;33;32;20;27" teams1="7" teams2="16;6;3;17;2;13;15;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;28;5;17;8;7" teams1="8" teams2="9;16;6;4;15;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;24;14;31;29;16" teams1="9" teams2="5;3;13;14;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;28;31;13;8;16;20" teams1="13" teams2="5;9;7;14;10;11;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;24;28;19;18;8;2;32" teams1="7" teams2="16;4;8;17;14;10;11;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;24;22;29;17;3;2;32" teams1="15" teams2="9;6;7;3;13;14;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="29;6;17;13;33;32;20" teams1="4" teams2="6;8;7;17;13;15;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;5;14;0;12;8;7" teams1="13" teams2="16;4;3;1;15;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;24;21;14;0;7;26" teams1="14" teams2="16;6;3;1;11;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;5;1;13;11;2;32" teams1="8" teams2="5;9;6;2;13;15;10" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;28;0;10;11;2;20" teams1="11" teams2="5;9;4;3;1;13;15" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;24;4;5;10;16;33" teams1="17" teams2="9;4;8;3;15;14;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="30;21;31;12;33;11;2" teams1="13" teams2="5;9;6;1;17;2;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;15;31;19;11;26;32;27" teams1="15" teams2="9;16;6;7;3;17;14;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;21;13;16;33;32" teams1="10" teams2="5;6;4;11;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;4;0;17;18;8;33" teams1="15" teams2="5;9;16;7;2;11;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;24;1;10;8;16;32;27" teams1="2" teams2="16;6;4;3;1;13;14;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;22;21;29;0;16;33" teams1="0" teams2="5;16;4;1;15;10;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="4;29;0;18;13;33" teams1="14" teams2="5;9;4;7;17;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;5;6;8;7;32" teams1="16" teams2="5;6;8;7;13;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;22;30;21;14;31" teams1="1" teams2="8;17;2;13;10;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;9;10;3;8;20" teams1="2" teams2="5;16;8;1;15;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="22;21;28;12;33;26;32" teams1="6" teams2="5;9;3;1;17;15;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;9;0;17;8;32" teams1="9" teams2="8;3;13;15;11;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;15;1;18;8;2" teams1="6" teams2="9;4;17;2;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;14;29;6;0;3;20" teams1="9" teams2="16;4;8;3;2;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;24;9;0;33;7" teams1="7" teams2="6;3;2;15;14;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="30;28;5;6;3;12;33;27" teams1="8" teams2="4;7;17;2;13;15;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;4;28;0;13;11;32" teams1="0" teams2="16;6;3;1;15;10;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;28;29;19;18;7;20" teams1="9" teams2="16;8;17;13;11;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="22;31;0;19;12;33;11;7" teams1="2" teams2="5;9;4;13;14;10;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="1;14;31;6;10;18;13;33" teams1="11" teams2="9;16;6;4;8;17;13;15" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;4;21;5;10;12" teams1="17" teams2="16;6;7;1;14;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;21;5;0;10;12;16;20" teams1="5" teams2="6;17;13;15;10;11;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;22;9;13;12;16;26;32" teams1="14" teams2="9;16;4;7;2;10;11;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;24;28;5;29;10;3;11" teams1="0" teams2="16;6;4;7;3;1;2;10" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;31;29;10;26;27" teams1="5" teams2="16;6;4;8;7;17" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;1;31;6;17;18;12;27" teams1="7" teams2="5;8;3;17;15;14;10;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="1;6;0;13;11;7;27" teams1="7" teams2="5;4;17;13;14;10;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;9;10;13;3;16;33;7" teams1="16" teams2="8;3;1;17;2;10;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;4;5;10;18;7;32" teams1="17" teams2="9;4;8;7;3;1;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;1;31;18;3;12;11" teams1="5" teams2="16;8;7;3;15;11;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;15;30;10;18;26;20" teams1="2" teams2="16;6;4;3;1;17;13" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="31;29;6;10;13;33" teams1="6" teams2="16;7;2;15;14;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;9;31;0;11;2;32" teams1="2" teams2="5;9;3;1;17;13;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;21;29;10;16;27" teams1="15" teams2="9;16;6;8;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;30;9;17;7;26;20" teams1="14" teams2="9;16;4;7;15;11;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;21;31;29;6;19;11;2" teams1="4" teams2="5;7;3;1;17;15;10;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;24;4;14;19;18;33;32" teams1="6" teams2="5;9;16;4;7;13;14;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;22;30;28;5;29;0" teams1="8" teams2="5;9;6;3;17;14;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;22;9;5;14;6;17;33" teams1="4" teams2="5;9;6;1;15;14;11;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;30;21;28;5;32;27" teams1="7" teams2="6;4;8;17;2;10;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;15;31;6;0;13;7;26" teams1="11" teams2="5;9;6;8;7;13;10;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="5;14;31;17;11;7" teams1="11" teams2="5;9;16;7;17;15" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;30;31;18;12;27" teams1="12" teams2="16;6;3;17;15;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;30;5;1;18;13;33" teams1="6" teams2="9;16;3;17;2;13;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;23;15;21;5;14;31;32" teams1="10" teams2="16;4;7;3;1;14;11;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="9;31;10;11;7;26;2" teams1="4" teams2="16;6;3;17;15;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="17;3;11;26;32;20" teams1="2" teams2="16;4;3;17;13;15" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;23;9;21;1;18" teams1="12" teams2="9;7;1;2;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="30;5;14;10;13;3;16;32" teams1="17" teams2="5;9;16;4;8;7;3;13" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;4;30;31;18;13" teams1="1" teams2="9;16;8;2;14;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="4;22;30;29;33;27" teams1="3" teams2="6;8;7;17;2;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;22;14;29;17;7;27" teams1="17" teams2="16;3;2;15;14;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="30;9;1;29;19;2" teams1="14" teams2="9;16;8;7;17;15" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;24;30;9;28;16;32" teams1="14" teams2="8;3;1;17;2;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;9;0;10;33;11" teams1="17" teams2="4;2;15;14;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;15;9;28;1;31;29;32" teams1="13" teams2="5;16;6;17;2;15;14;10" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;5;6;17;3;16;20" teams1="14" teams2="16;4;8;7;2;15;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="28;14;8;33;2;32" teams1="3" teams2="5;9;4;8;2;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="4;21;14;6;17;3;16;26" teams1="15" teams2="5;4;8;3;1;2;14;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;15;24;30;9;12;8" teams1="5" teams2="9;8;1;2;14;10;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;21;6;19;18;3;33;2" teams1="17" teams2="5;16;4;8;7;3;1;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;24;4;0;33;11" teams1="5" teams2="16;8;13;15;14;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="5;14;19;12;8;33;11" teams1="14" teams2="9;8;7;3;17;15;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;28;31;13;2;20" teams1="7" teams2="5;8;1;14;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;24;5;17;8;11;2" teams1="16" teams2="5;7;1;17;2;15;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;1;29;17;16;33;26;2" teams1="2" teams2="5;9;8;17;13;15;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;31;19;18;16;20" teams1="3" teams2="16;6;4;8;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;4;31;0;12;27" teams1="4" teams2="5;8;17;14;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;10;18;16;32;20" teams1="3" teams2="6;4;17;14;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;15;22;28;1;17;13;33" teams1="9" teams2="4;3;17;2;15;14;11;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;30;21;14;17;3;8;2" teams1="3" teams2="16;6;1;2;13;15;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;22;9;5;31;19;20;27" teams1="7" teams2="9;16;6;4;8;1;14;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="21;1;12;16;33;7" teams1="17" teams2="4;3;2;13;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;14;0;33;26;2" teams1="17" teams2="5;1;13;14;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;9;1;29;12;32" teams1="6" teams2="9;16;7;3;14;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;30;21;14;0;19;8" teams1="9" teams2="5;16;1;2;15;14;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;5;1;33;26;32" teams1="5" teams2="6;3;1;17;2;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;22;28;14;3;32" teams1="9" teams2="5;6;7;3;17;2" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;21;28;31;0;17" teams1="5" teams2="4;17;2;14;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;24;30;28;14;10;8" teams1="9" teams2="5;7;17;13;14;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;6;0;12;16;11" teams1="4" teams2="16;3;2;15;14;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;30;21;5;6;12;7" teams1="4" teams2="9;16;8;7;14;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="9;5;31;10;18;3" teams1="2" teams2="7;3;1;13;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;22;5;12;8;26" teams1="6" teams2="8;3;17;15;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="5;1;0;17;18;12;33;26" teams1="2" teams2="5;4;3;1;13;15;10;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;24;0;17;10;3" teams1="3" teams2="16;6;1;2;11;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;9;0;18;3;26;32" teams1="5" teams2="16;6;1;2;15;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="4;22;9;21;1;13;3;20" teams1="15" teams2="8;7;3;1;2;13;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;9;28;31;33;27" teams1="14" teams2="5;6;4;3;17;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="28;1;29;18;3;12;8;26" teams1="2" teams2="5;6;4;8;7;17;11;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;10;19;13;3;11;2;20" teams1="0" teams2="9;16;6;4;7;17;2;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;4;22;13;12;11;27" teams1="8" teams2="5;16;4;7;3;1;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;24;9;5;3;8;2" teams1="3" teams2="9;6;17;2;14;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="30;9;5;1;14;19;8;11" teams1="6" teams2="5;16;7;13;15;11;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;5;31;29;0;3;8;27" teams1="11" teams2="5;6;4;8;3;1;10;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;30;1;14;8;7;26" teams1="14" teams2="7;3;17;13;10;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;1;17;12;20;27" teams1="9" teams2="5;8;2;13;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;9;21;5;19;32" teams1="13" teams2="5;8;3;17;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;28;17;13;33;27" teams1="10" teams2="16;4;1;13;15;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;15;31;18;13;8;20" teams1="2" teams2="4;7;3;17;13;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;30;19;18;12;7" teams1="4" teams2="9;16;3;14;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;23;14;29;13;2;32" teams1="0" teams2="5;9;16;4;17;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;23;22;21;14;7" teams1="14" teams2="5;7;3;13;11;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="17;13;8;16;11;2" teams1="11" teams2="7;1;17;2;14;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;9;31;18;12;7" teams1="10" teams2="9;8;1;2;14;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;29;6;17;10;12;11;26" teams1="14" teams2="5;16;1;17;2;13;15;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;30;0;10;13;12;27" teams1="7" teams2="16;8;2;13;15;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;9;14;17;2;20" teams1="3" teams2="16;6;2;13;10;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;9;28;18;3;12;27" teams1="12" teams2="5;9;4;8;7;3;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;4;14;29;0;7;26" teams1="11" teams2="6;4;3;2;15;14;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;4;31;6;0;3" teams1="11" teams2="5;3;17;15;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="28;18;13;8;11;2;20" teams1="4" teams2="5;3;17;2;15;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="22;9;28;17;8;33" teams1="9" teams2="6;3;13;15;10;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;30;9;5;29;11;7;20" teams1="2" teams2="5;9;4;8;13;14;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;9;21;14;10;2" teams1="4" teams2="9;16;8;7;3;14" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;1;29;19;18;33;11;7" teams1="8" teams2="5;3;1;15;14;10;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="9;14;31;6;17;8;7;2" teams1="6" teams2="5;4;8;7;17;15;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;24;5;18;8;26" teams1="8" teams2="5;6;7;1;14;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;24;4;14;18;12;20" teams1="8" teams2="6;4;7;10;11;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;4;9;21;1;17;8" teams1="9" teams2="16;6;7;17;13;15;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;4;22;21;6;16;2;20" teams1="17" teams2="4;7;3;1;13;15;10;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;21;14;6;0;13;20;27" teams1="16" teams2="4;8;7;13;15;14;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="30;5;14;29;13;7;2;27" teams1="2" teams2="16;6;7;3;1;13;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;23;4;13;11;32" teams1="12" teams2="16;6;4;7;1;17" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;29;17;12;16;20" teams1="11" teams2="5;9;6;3;15;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;22;21;1;8;7;32;20" teams1="8" teams2="5;9;4;7;17;2;14;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;22;30;8;7;32" teams1="3" teams2="9;4;17;11;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;30;1;29;10;13;2;20" teams1="12" teams2="9;4;17;2;13;15;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="30;14;29;0;18;16;26" teams1="9" teams2="16;4;3;1;17;13;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;24;9;14;29;13;11" teams1="7" teams2="9;16;4;1;17;2;13" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;1;29;17;10;13;2" teams1="13" teams2="5;3;1;2;10;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;9;21;29;0;7;27" teams1="11" teams2="5;16;7;3;13;14;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;9;14;12;11;26;32;20" teams1="12" teams2="5;16;4;8;3;17;2;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;9;5;29;0;18;32" teams1="0" teams2="5;6;7;3;17;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;9;16;26;2;32" teams1="6" teams2="5;16;4;7;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="0;13;12;11;7;32;27" teams1="9" teams2="4;3;1;2;15;10;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;9;5;14;17;18;13" teams1="10" teams2="5;9;6;13;15;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;1;31;12;33;26;32" teams1="0" teams2="5;16;4;8;17;2;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;1;14;17;18;26;27" teams1="16" teams2="5;6;4;1;17;2;14" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;4;21;10;18;13" teams1="17" teams2="5;1;13;15;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;21;17;10;19;16;26" teams1="3" teams2="4;7;2;10;11;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;10;19;33;26;32" teams1="2" teams2="5;9;16;1;13;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;15;22;6;17;18;11" teams1="14" teams2="5;9;16;8;3;2;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="28;1;29;8;16;7;20;27" teams1="17" teams2="16;8;3;1;2;13;15;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;22;5;6;13;33;11" teams1="11" teams2="6;8;3;17;13;15;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;21;5;14;8;16;32" teams1="4" teams2="9;16;7;3;2;15;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="4;22;21;28;31;29;6;10" teams1="0" teams2="5;9;16;1;17;2;14;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;1;31;12;8;26" teams1="16" teams2="5;9;6;13;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;4;14;10;12;8;7" teams1="11" teams2="9;8;3;1;2;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="14;10;13;3;8;33;26;27" teams1="12" teams2="5;6;4;3;15;14;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;24;9;1;17;18;32" teams1="14" teams2="5;4;8;3;2;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="1;6;0;10;12;20" teams1="6" teams2="5;16;7;2;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="9;0;18;3;12;16;2" teams1="8" teams2="5;6;7;1;15;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;6;17;19;3;12;20" teams1="0" teams2="6;8;7;13;15;10;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;30;13;8;33;11;7;20" teams1="9" teams2="16;7;3;1;2;14;11;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;22;21;31;10;32" teams1="6" teams2="16;4;7;3;17;14" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="30;5;1;29;6;13" teams1="2" teams2="9;7;3;1;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;15;0;17;10;7" teams1="13" teams2="16;4;8;3;2;15" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;6;17;10;18;12;16;20" teams1="16" teams2="4;8;7;1;17;13;15;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="30;1;31;19;18;33;27" teams1="10" teams2="16;6;8;7;13;11;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;30;0;10;3;33;7;2" teams1="15" teams2="9;16;8;17;2;10;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;21;28;3;7;26;20" teams1="13" teams2="16;4;8;1;17;15;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;24;4;5;29;18;12" teams1="8" teams2="9;4;7;3;15;14;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;22;14;31;29;19;11;7" teams1="1" teams2="16;6;8;2;13;10;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;1;0;17;19;12;11" teams1="1" teams2="6;4;7;3;2;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;4;5;1;20;27" teams1="9" teams2="6;2;13;10;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;15;4;9;14;13;8;27" teams1="16" teams2="5;6;8;1;2;14;11;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="4;30;28;10;8;33;20" teams1="10" teams2="5;9;6;4;3;2;15" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="4;30;21;28;6;10;16;32" teams1="11" teams2="5;7;3;17;15;14;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="9;28;31;18;8;32;27" teams1="13" teams2="5;16;6;8;17;2;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;6;10;18;12;8;7" teams1="7" teams2="5;9;3;15;14;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;22;29;19;12;20" teams1="9" teams2="6;8;2;13;15;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="30;9;6;13;33;32" teams1="12" teams2="8;7;3;17;2;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="21;28;1;10;18;33" teams1="12" teams2="4;7;1;13;15;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;9;31;3;32;27" teams1="8" teams2="9;16;7;10;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;4;28;17;13;33" teams1="10" teams2="4;2;13;15;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;22;30;28;6;0;26" teams1="7" teams2="16;8;3;1;2;15;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;21;31;6;16;7" teams1="17" teams2="9;4;7;14;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;15;4;31;10;13;7;2" teams1="8" teams2="5;3;17;2;15;11;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;21;1;0;19;13;7" teams1="6" teams2="5;9;16;4;8;14;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="22;9;5;8;7;26;2" teams1="6" teams2="5;9;16;1;15;11;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="30;3;8;16;33;20" teams1="5" teams2="16;6;3;17;2;15" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;31;10;19;16;11;32;20" teams1="12" teams2="9;17;2;13;15;14;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;10;18;3;16;26;32" teams1="16" teams2="5;4;8;7;13;14;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;30;28;5;29;16;7;2" teams1="17" teams2="9;16;4;7;1;13;14;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="30;28;0;18;3;2;32" teams1="2" teams2="5;9;6;14;10;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;15;14;29;26;20" teams1="13" teams2="16;6;8;3;17;15" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;9;28;29;3;33;11;7" teams1="8" teams2="9;16;6;2;14;10;11;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;21;1;0;12;8" teams1="16" teams2="9;8;1;13;15;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;28;17;13;16;11;7;27" teams1="12" teams2="5;9;16;2;15;10;11;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;0;19;11;7;2;20" teams1="10" teams2="6;7;1;2;15;11;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;15;9;10;18;8;33;27" teams1="7" teams2="16;4;3;1;17;2;15;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="9;28;31;29;10;8;7" teams1="5" teams2="9;3;17;2;15;10;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;9;21;29;6;13;8;7" teams1="1" teams2="5;4;7;3;17;13;14;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;5;0;10;13;3;7" teams1="8" teams2="9;6;4;7;3;2;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="22;9;31;29;18;20" teams1="17" teams2="8;7;3;13;15;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;21;0;10;11;7" teams1="5" teams2="4;7;13;15;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;28;5;10;19;12;8;20" teams1="5" teams2="16;6;4;3;13;15;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="5;1;14;31;6;16;7;32" teams1="1" teams2="9;17;2;13;14;10;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;5;29;18;33;2;32" teams1="4" teams2="5;8;1;2;13;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;5;14;6;19;13;8;2" teams1="13" teams2="5;16;8;7;1;17;10;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;30;9;10;12;16" teams1="17" teams2="9;4;3;2;15;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;9;14;31;0;32" teams1="10" teams2="5;9;16;7;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;9;21;1;17;19;26;2" teams1="3" teams2="16;4;8;1;2;14;10;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;10;18;3;11;7;2;32" teams1="2" teams2="9;6;8;7;17;15;14;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="28;0;17;10;11;7;32" teams1="16" teams2="5;8;17;2;14;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;5;0;8;33;27" teams1="13" teams2="9;4;8;7;3;17" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="9;5;17;13;7;20" teams1="0" teams2="4;3;17;2;13;10" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="28;31;29;10;16;26" teams1="12" teams2="5;6;4;2;13;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;22;30;9;6;18;8" teams1="9" teams2="16;6;3;1;13;14;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;5;14;8;11;2;32" teams1="9" teams2="5;4;7;3;13;10;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="21;14;29;0;17;12;7;2" teams1="6" teams2="9;16;8;3;13;15;14;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;9;14;10;19;26" teams1="13" teams2="5;7;3;1;10;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;30;5;1;0;16;26" teams1="2" teams2="5;9;16;3;17;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;24;9;6;17;10" teams1="15" teams2="16;4;8;3;1;2" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="5;6;0;10;3;26" teams1="0" teams2="7;1;14;10;11;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;22;31;0;13;26" teams1="0" teams2="8;13;15;14;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;30;29;13;3;7;32" teams1="3" teams2="16;8;1;17;2;13;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;31;29;19;3;12;8" teams1="13" teams2="5;16;4;7;2;14;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;30;9;5;3;16;2" teams1="13" teams2="5;6;4;1;17;2;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;21;5;3;8;11" teams1="5" teams2="6;3;17;13;15;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="28;5;6;11;2;20" teams1="14" teams2="9;6;3;17;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;30;3;16;33;27" teams1="10" teams2="6;4;17;11;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;28;29;0;19;18;33;26" teams1="4" teams2="5;16;3;17;15;10;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="5;1;29;33;11;20" teams1="12" teams2="16;7;1;2;13;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="28;1;6;18;16;7;2" teams1="17" teams2="5;16;3;2;13;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;24;4;9;3;12" teams1="5" teams2="9;16;6;7;14;10" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;21;0;10;13;33;11;32" teams1="14" teams2="9;6;4;7;1;15;11;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;15;24;4;0;13;3;27" teams1="9" teams2="8;7;3;1;2;10;11;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;24;14;17;8;11" teams1="8" teams2="16;4;7;13;15;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;28;1;19;3;16;27" teams1="14" teams2="9;16;4;1;17;2;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="31;6;13;16;26;20" teams1="17" teams2="4;1;2;13;14;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;4;22;1;14;29;16" teams1="11" teams2="5;6;8;17;2;15;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;30;21;3;16;32" teams1="16" teams2="5;9;6;13;14;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;22;30;28;7;27" teams1="5" teams2="16;4;17;2;13;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;1;14;29;17;18;8;16" teams1="12" teams2="5;16;6;4;8;7;3;2" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;0;3;12;11;32" teams1="11" teams2="16;4;8;2;13;14" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;30;31;18;3;8;26;2" teams1="16" teams2="5;9;4;13;15;14;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;4;30;21;28;5;1" teams1="8" teams2="5;9;6;4;2;13;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;15;5;33;11;7" teams1="9" teams2="6;8;1;15;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="5;6;18;11;2;27" teams1="3" teams2="16;8;7;14;10;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;30;21;5;14;10;8;20" teams1="4" teams2="17;2;13;14;10;11;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="9;31;10;8;11;2" teams1="12" teams2="9;16;4;8;3;2" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;5;0;19;7;26" teams1="11" teams2="9;6;4;14;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;29;0;3;12;8;11" teams1="7" teams2="16;6;3;2;15;14;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="30;31;13;8;11;20" teams1="1" teams2="5;9;16;3;17;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;28;1;13;16;11;26;20" teams1="4" teams2="5;1;17;2;15;14;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;24;1;31;8;11;32" teams1="3" teams2="16;6;4;1;17;2;10" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="9;14;6;17;13;33;7;2" teams1="7" teams2="6;4;1;17;15;14;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;15;29;6;18;13;2" teams1="14" teams2="5;16;7;1;13;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;24;31;0;33;27" teams1="2" teams2="4;3;1;17;15;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="14;6;0;17;13;8" teams1="5" teams2="9;7;2;13;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="30;28;1;14;6;8;26;2" teams1="7" teams2="4;8;1;13;15;10;11;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="5;1;0;17;13;12;16;20" teams1="2" teams2="5;9;8;7;13;15;14;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="4;22;0;13;7;26;32;20" teams1="14" teams2="9;16;6;8;1;2;10;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;30;19;16;33;7" teams1="3" teams2="9;6;2;13;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="14;0;8;33;7;26" teams1="9" teams2="16;4;7;3;13;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;21;14;17;16;20" teams1="7" teams2="5;3;2;13;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;0;17;10;18;7;26" teams1="13" teams2="5;9;3;17;2;14;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="30;21;29;12;16;11;7" teams1="16" teams2="5;4;7;17;15;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="21;14;6;3;26;20" teams1="0" teams2="5;16;8;7;1;17" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;30;9;6;12;20" teams1="13" teams2="5;16;7;15;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;31;17;13;16;26;2" teams1="13" teams2="9;6;4;1;17;2;15" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;4;21;28;13;12" teams1="6" teams2="1;2;13;14;10;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;28;29;3;8;11" teams1="4" teams2="6;7;3;2;13;10" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;21;6;19;12;32" teams1="13" teams2="16;6;4;17;14;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="1;31;17;13;20;27" teams1="16" teams2="5;9;4;7;17;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;22;31;18;3;8" teams1="17" teams2="5;16;4;3;13;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;30;9;31;17;19;11" teams1="12" teams2="16;4;8;7;1;13;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;4;31;17;13;8;11;32" teams1="0" teams2="9;8;13;15;14;10;11;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="5;1;14;31;29;19;16;20" teams1="9" teams2="7;1;2;13;15;14;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="9;31;0;10;16;7;20" teams1="14" teams2="5;8;7;3;17;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="14;19;13;3;26;20" teams1="16" teams2="6;8;1;17;2;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;1;6;8;11;32;27" teams1="10" teams2="5;8;7;3;1;13;15" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;9;29;12;11;20" teams1="7" teams2="6;4;1;13;14;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;15;22;19;13;3;20" teams1="17" teams2="4;7;3;1;2;10;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="30;21;14;29;6;0;10;16" teams1="6" teams2="5;4;1;17;13;10;11;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;23;9;28;14;0;18;16" teams1="16" teams2="5;8;3;17;13;15;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="30;5;29;10;18;11;2" teams1="2" teams2="5;9;4;7;3;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="28;5;10;13;32;27" teams1="17" teams2="9;16;6;3;2;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;4;5;1;18;33;7" teams1="4" teams2="5;8;3;1;2;15;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;9;21;14;3;27" teams1="14" teams2="5;6;4;3;1;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="28;31;0;10;3;11;20" teams1="7" teams2="5;16;4;8;3;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;5;17;3;8;11;32" teams1="14" teams2="9;16;8;15;10;11;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="30;9;28;14;31;13;12;11" teams1="16" teams2="6;8;3;1;13;15;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;14;7;32;20;27" teams1="11" teams2="7;2;13;15;10;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;31;0;17;13;3;12;27" teams1="0" teams2="16;4;7;3;2;14;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;9;14;6;0;12;20" teams1="11" teams2="9;6;3;1;13;14;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;9;14;6;33;32" teams1="11" teams2="8;17;2;13;14;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;4;6;13;8;2;27" teams1="15" teams2="5;9;1;17;14;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;24;21;31;18;3;8" teams1="8" teams2="9;17;13;15;14;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;6;0;13;11;27" teams1="6" teams2="4;8;1;17;14;10" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;28;1;14;3;33;32;20" teams1="7" teams2="9;6;4;2;15;10;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;24;22;21;28;5;1;8" teams1="13" teams2="9;6;4;7;3;1;14;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;1;6;18;8;26;27" teams1="3" teams2="9;6;1;2;13;15;10" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;24;21;5;31;0;16;32" teams1="14" teams2="16;8;3;2;13;15;10;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;23;4;10;12;16;7;2" teams1="5" teams2="16;3;1;13;14;11;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;30;9;29;19;8;33" teams1="16" teams2="5;6;4;8;1;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="5;31;17;18;33;7" teams1="16" teams2="6;7;13;11;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="9;5;1;17;13;12;11;32" teams1="5" teams2="16;4;7;3;17;15;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="14;6;17;18;8;16;7;32" teams1="12" teams2="4;8;3;13;15;14;10;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;28;5;1;14;6;19;13" teams1="9" teams2="5;6;3;1;13;15;14;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;1;19;18;33;11;32" teams1="16" teams2="9;6;4;8;1;15;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;30;9;3;2;27" teams1="14" teams2="4;7;3;17;2;15" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;4;30;28;18;8;33;32" teams1="6" teams2="5;3;17;2;15;11;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;9;29;3;26;27" teams1="8" teams2="9;7;3;1;13;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;9;14;12;32;20" teams1="6" teams2="16;8;3;2;10;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;15;21;14;31;19;33;11" teams1="10" teams2="5;4;8;7;1;17;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;30;6;16;33;2;32" teams1="2" teams2="9;16;6;1;17;13;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="22;21;6;0;33;7;20" teams1="7" teams2="4;3;17;13;10;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="28;1;29;0;16;33;2" teams1="12" teams2="9;8;1;2;14;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="4;30;14;19;18;8;20" teams1="6" teams2="5;4;1;13;10;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;1;14;3;8;16;33;20" teams1="11" teams2="9;6;4;8;3;2;13;15" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;4;22;9;18;13;3" teams1="8" teams2="4;3;17;2;14;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;28;6;18;26;20;27" teams1="4" teams2="16;7;1;17;13;14;10" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;15;4;21;29;17;16;33" teams1="7" teams2="5;6;4;8;3;17;2;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;21;28;14;6;16;11;7" teams1="11" teams2="5;16;4;3;17;10;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="14;31;29;8;26;27" teams1="14" teams2="5;9;3;11;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;4;9;10;13;3;12;8" teams1="13" teams2="16;7;3;2;14;10;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;5;1;17;10;33;26;27" teams1="10" teams2="9;16;6;4;8;2;13;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;30;1;19;18;13;11;20" teams1="3" teams2="9;16;4;8;2;13;14;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="21;3;33;26;2;27" teams1="4" teams2="5;14;10;11;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;28;14;0;17;10;11;27" teams1="2" teams2="5;16;6;8;3;1;14;10" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;17;33;2;32;20" teams1="10" teams2="5;6;3;1;13;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;1;17;19;13;7;20" teams1="9" teams2="6;8;7;3;15;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;21;1;3;11;2;32;27" teams1="14" teams2="5;9;6;4;1;17;15;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;4;30;28;5;14;29;11" teams1="7" teams2="6;4;8;1;2;15;10;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;24;21;0;17;19;8;27" teams1="12" teams2="5;9;6;4;17;14;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;22;1;17;10;26" teams1="4" teams2="5;8;1;2;14;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;21;10;19;13;2" teams1="4" teams2="16;2;15;10;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;21;29;6;0;18" teams1="13" teams2="8;3;1;17;2;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;24;22;19;13;26" teams1="8" teams2="4;7;1;15;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;4;31;6;19;32;20" teams1="12" teams2="6;4;3;2;15;14;10" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;1;19;13;3;33;26;2" teams1="11" teams2="4;8;7;3;1;17;15;14" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;9;29;6;0;19;26;27" teams1="8" teams2="9;4;3;1;2;14;11;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;4;9;28;18;12;16" teams1="6" teams2="5;16;3;15;10;0;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;21;5;0;18;16;2;27" teams1="15" teams2="5;9;6;8;7;3;2;10" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;15;30;21;5;8;11" teams1="15" teams2="5;9;2;14;11;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;23;22;31;0;10;20" teams1="15" teams2="5;4;3;17;2;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;21;18;3;8;11;26" teams1="9" teams2="4;1;17;13;15;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;24;9;28;17;10;16" teams1="2" teams2="4;7;17;15;14;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;14;29;10;19;18;12;2" teams1="5" teams2="4;8;3;1;2;13;14;10" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;29;0;13;16;33;26;2" teams1="10" teams2="6;4;3;17;15;14;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;17;19;12;8;32" teams1="16" teams2="9;6;8;1;13;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;15;14;29;16;11;26;20" teams1="16" teams2="4;8;7;2;13;15;11;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="9;28;10;13;8;16;11;26" teams1="15" teams2="6;4;8;7;1;2;13;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="30;28;5;29;3;8;32" teams1="13" teams2="16;6;4;7;14;10;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;10;3;8;16;2" teams1="15" teams2="9;6;7;3;1;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;4;28;0;8;16;7;2" teams1="15" teams2="5;9;16;3;2;13;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;22;28;1;10;19;12" teams1="15" teams2="9;16;4;13;14;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;30;1;17;33;27" teams1="3" teams2="4;1;2;14;10;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;4;31;17;12;16;33;2" teams1="5" teams2="16;4;1;2;13;10;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;22;5;1;3;8;26" teams1="11" teams2="5;9;7;3;1;15;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="22;14;6;16;11;2" teams1="11" teams2="8;7;3;1;10;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="14;29;17;13;33;2;32" teams1="8" teams2="5;9;6;17;2;0;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;14;0;11;7;32;27" teams1="4" teams2="8;3;17;15;10;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="15;4;28;14;10;12;26;27" teams1="13" teams2="6;7;3;15;10;11;0;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;4;9;14;29;16;26;2" teams1="17" teams2="5;9;16;8;3;13;10;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;30;0;13;3;33;26;2" teams1="15" teams2="9;16;4;8;1;17;13;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;22;13;3;12;33;2" teams1="1" teams2="9;4;8;2;15;10;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;23;24;21;31;27" teams1="13" teams2="4;1;17;2;11;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="14;29;0;7;2;20" teams1="11" teams2="6;4;7;17;14;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="28;14;6;19;13;3;32;20" teams1="13" teams2="16;6;7;1;2;15;14;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;28;14;17;12;32" teams1="10" teams2="5;6;7;17;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="1;17;10;13;33;11;2" teams1="10" teams2="16;6;8;1;17;13;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;22;21;1;12;2;32;20" teams1="0" teams2="16;6;4;1;17;2;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;22;9;31;12;7;2;27" teams1="16" teams2="5;4;1;17;2;15;14;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;5;29;18;16;7;32" teams1="1" teams2="5;6;4;7;17;14;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;22;30;28;1;13;3;11" teams1="2" teams2="9;16;6;8;7;3;13;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="23;4;30;6;17;8;26;20" teams1="9" teams2="5;6;8;3;13;14;10;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;30;21;5;29;6;11;26" teams1="5" teams2="9;4;7;1;14;10;11;12" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="25;1;6;18;12;27" teams1="5" teams2="6;4;8;13;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;15;21;31;8;20;27" teams1="14" teams2="16;4;8;2;10;11;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="30;28;5;0;11;7;26;27" teams1="0" teams2="5;8;3;1;2;13;15;11" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="30;1;14;6;13;11" teams1="6" teams2="16;4;7;13;10;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;22;30;5;1;31;18;26" teams1="3" teams2="4;7;1;17;2;13;11;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="9;21;0;3;26;32;27" teams1="4" teams2="5;1;17;2;13;14;11" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="15;24;4;21;31;12;33" teams1="2" teams2="16;4;8;3;13;15;14" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="9;29;18;33;11;32" teams1="9" teams2="16;6;2;14;11;0" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="24;29;0;19;3;16;27" teams1="1" teams2="9;16;4;8;7;3;13" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="23;9;14;13;12;16;32" teams1="12" teams2="9;16;4;7;3;1;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;24;30;21;14;33;7;27" teams1="3" teams2="5;9;16;4;8;13;15;11" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="25;24;4;21;5;31;29;0" teams1="4" teams2="5;9;16;17;13;15;11;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;24;4;30;9;0;8;20" teams1="10" teams2="5;4;7;17;13;15;14;12" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;14;31;13;16;27" teams1="14" teams2="4;8;7;3;10;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="A" mode2="GLOBAL" penalty="5" slots="24;22;5;14;0;18;12;8" teams1="2" teams2="5;9;16;6;7;3;17;10" type="SOFT"/>
+            <CA2 max="1" min="0" mode1="HA" mode2="GLOBAL" penalty="5" slots="28;1;0;18;33;11;26" teams1="1" teams2="5;8;3;17;2;14;12" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="9;5;12;16;11;7;2;32" teams1="14" teams2="6;7;3;17;13;10;11;0" type="SOFT"/>
+            <CA2 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;1;14;31;17;16;32" teams1="11" teams2="5;16;4;8;1;15;0" type="SOFT"/>
+            <CA2 max="3" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="9;28;14;29;13;33;11;27" teams1="7" teams2="16;6;8;17;13;14;0;12" type="SOFT"/>
+            <CA3 intp="3" max="2" min="0" mode1="H" mode2="SLOTS" penalty="1" teams1="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA3 intp="3" max="2" min="0" mode1="A" mode2="SLOTS" penalty="1" teams1="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="1" teams2="9;3;15;0;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="8" teams2="3;2;11;0;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="12" teams2="6;1;17;15;14;11;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="5" teams2="9;16;4;13;14;10;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="6" teams2="9;16;8;7;3;15;14" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="4" teams2="5;9;6;2;15;14;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="13" teams2="5;9;8;1;17" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="1" teams2="5;16;17;2;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="1" teams2="5;6;4;7;3;11" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="4" teams2="5;8;3;17;13;15" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="16" teams2="9;6;7;1;2;10;11" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="16" teams2="8;7;17;15;14" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="12" teams2="5;9;17;2;11;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="9" teams2="16;8;7;3;17;14;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="0" teams2="4;8;1;2;13;15;14" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="9" teams2="4;7;2;10;11;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="4" teams2="9;6;8;1;13;10;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="11" teams2="5;9;6;4;1;15;14" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="13" teams2="9;16;17;2;15;14;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="17" teams2="5;4;1;13;10;0;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="8" teams2="5;9;7;3;10;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="2" teams2="16;7;3;10;0;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="6" teams2="5;9;1;13;11;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="0" teams2="16;4;7;14;11" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="7" teams2="8;17;2;13;0;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="16" teams2="9;6;4;3;17;13;11" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="17" teams2="16;4;7;1;13;15;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="3" teams2="4;1;15;14;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="8" teams2="9;16;6;4;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="15" teams2="16;4;7;17;14;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="2" teams2="16;1;17;13;15" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="4" teams2="16;8;7;1;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="8" teams2="16;7;17;2;11;0;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="13" teams2="9;4;1;17;15;14;11" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="16" teams2="4;7;17;13;15;14;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="0" teams2="9;4;8;17;2" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="15" teams2="5;4;1;13;11;0;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="10" teams2="4;7;14;0;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="6" teams2="4;7;2;13;14;11" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="2" teams2="5;4;15;14;10;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="11" teams2="5;7;3;1;17;15;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="11" teams2="5;9;16;1;14;0;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="3" teams2="9;4;1;17;2;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="6" teams2="8;7;3;2;10;0;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="0" teams2="17;13;14;10;11" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="2" teams2="5;9;3;1;13;14;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="17" teams2="16;7;13;15;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="9" teams2="6;2;15;10;11;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="1" teams2="4;8;3;17;14;10;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="0" teams2="7;3;13;15;14;11;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="17" teams2="4;8;13;15;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="9" teams2="4;1;17;15;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="17" teams2="8;3;1;13;10;11" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="3" teams2="9;16;6;13;15;14;11" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="10" teams2="16;6;4;7;1;17;15" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="7" teams2="5;9;16;2;10;11;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="13" teams2="5;6;17;15;11;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="3" teams2="5;16;4;8;13;14;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="17" teams2="9;6;7;3;13;15;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="14" teams2="16;4;1;15;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="8" teams2="5;16;4;2;15;14" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="17" teams2="5;16;8;13;14;10;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="8" teams2="5;9;7;3;1;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="0" teams2="4;7;3;2;11" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="1" teams2="9;16;4;7;15;14;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="13" teams2="9;16;4;8;2;10;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="3" teams2="16;6;7;15;10;11;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="0" teams2="4;8;3;2;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="8" teams2="5;6;4;3;10;11;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="7" teams2="9;16;4;2;0;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="4" teams2="6;8;7;13;15;10;11" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="16" teams2="17;2;13;14;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="2" teams2="5;16;8;1;15;14" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="7" teams2="9;3;2;15;14;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="5" teams2="9;6;7;17;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="16" teams2="5;9;1;17;14" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="12" teams2="5;9;16;2;14;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="1" teams2="9;16;6;3;17;13" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="11" teams2="6;4;3;1;2;13;14" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="4" teams2="9;6;17;2;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="6" teams2="5;16;4;3;17;10;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="1" teams2="9;13;15;10;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="3" teams2="6;4;2;15;10;11;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="6" teams2="8;7;1;2;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="17" teams2="16;6;4;7;2;10;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="4" teams2="16;8;2;0;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="15" teams2="5;6;4;8;7;3;13" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="11" teams2="5;9;6;4;7" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="13" teams2="5;16;8;7;3;1" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="15" teams2="9;6;1;17;2;14;11" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="16" teams2="4;8;7;17;2;15;14" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="4" teams2="8;3;1;2;13;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="1" teams2="5;9;7;11;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="15" teams2="9;3;17;2;13;10;11" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="0" teams2="9;16;17;2;15" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="10" teams2="9;6;7;17;15;0;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="17" teams2="5;9;8;13;15;10;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="15" teams2="5;9;7;1;2;10;11" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="A" mode2="SLOTS" penalty="5" teams1="0" teams2="9;6;8;3;2;14;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="15" teams2="6;4;8;13;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="5" teams2="16;6;1;17;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="16" teams2="7;3;1;15;14;11" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="3" teams2="6;17;13;15;0;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="2" teams2="8;7;3;13;15;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="8" teams2="9;1;13;15;14;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="7" teams2="3;17;2;15;10;0" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="15" teams2="5;16;7;14;12" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="0" teams2="5;8;3;2;15" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="H" mode2="SLOTS" penalty="5" teams1="14" teams2="5;6;3;1;2;10;11" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="4" teams2="9;6;8;3;17;2;15" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="13" teams2="8;7;2;15;10" type="SOFT"/>
+            <CA3 intp="4" max="2" min="0" mode1="HA" mode2="SLOTS" penalty="5" teams1="2" teams2="5;9;16;6;8;7;3" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;5;1;6;7" teams1="5;4;8;7;15" teams2="5;4;8;7;15" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="5;1;10;8;7" teams1="5;8;3;15;0" teams2="5;8;3;15;0" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="1;0;3;2" teams1="5;8;1;14" teams2="5;8;1;14" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="25" teams1="10;11" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;1;0;2" teams1="3;17;2;13" teams2="3;17;2;13" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="5;13;16;11;7;2" teams1="5;2;13;15;10;0" teams2="5;2;13;15;10;0" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="9;6;13;16;7;2" teams1="5;16;2;13;0;12" teams2="5;16;2;13;0;12" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="1" teams1="5;14" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="9;5;1;8;11" teams1="5;9;16;3;2" teams2="5;9;16;3;2" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="1;6;13;3;11;2" teams1="9;6;3;13;10;0" teams2="9;6;3;13;10;0" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="4" teams1="6;4" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="14" teams1="5;4" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;9;10;13;3" teams1="9;2;14;0;12" teams2="9;2;14;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;5;1;0" teams1="8;13;15;0" teams2="8;13;15;0" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="28" teams1="15;11" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="9;10;3;8;2" teams1="5;8;3;1;17" teams2="5;8;3;1;17" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="16" teams1="8;13" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="1;0;3;2" teams1="8;17;11;12" teams2="8;17;11;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="23;15;21;5;1;16" teams1="7;3;2;13;11;12" teams2="7;3;2;13;11;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;9;6;0;3" teams1="6;3;1;15;11" teams2="6;3;1;15;11" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;5;0;2" teams1="5;6;14;10" teams2="5;6;14;10" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="3" teams1="9;6" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="23;9;10;13;16;11" teams1="9;16;7;3;2;0" teams2="9;16;7;3;2;0" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="33" teams1="2;0" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="9;17;19;18;13;2" teams1="16;6;8;7;3;13" teams2="16;6;8;7;3;13" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="9;5;10;3;7" teams1="2;13;14;10;11" teams2="2;13;14;10;11" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="24" teams1="8;3" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="20" teams1="5;13" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="5;1;0;7" teams1="16;6;1;12" teams2="16;6;1;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;1;0;3" teams1="9;6;1;14" teams2="9;6;1;14" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="5;1;6;8;2" teams1="7;1;17;14;11" teams2="7;1;17;14;11" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;9;5;1;0" teams1="4;1;13;14;0" teams2="4;1;13;14;0" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="1;6;0;7;2" teams1="5;6;4;2;12" teams2="5;6;4;2;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;1;6;3;7" teams1="6;7;13;14;0" teams2="6;7;13;14;0" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="3" teams1="5;9" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="18" teams1="6;7" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="5;1;10;3;11;7" teams1="16;8;3;10;11;0" teams2="16;8;3;10;11;0" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="3" teams1="16;14" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="5;1;0;10;12" teams1="9;6;3;2;12" teams2="9;6;3;2;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="9;5;1;2" teams1="1;17;10;0" teams2="1;17;10;0" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="4" teams1="0;12" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;1;0;3" teams1="16;8;1;0" teams2="16;8;1;0" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="5;1;0;3;8" teams1="9;8;15;14;12" teams2="9;8;15;14;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="6;17;10;13;12;11" teams1="5;6;13;14;0;12" teams2="5;6;13;14;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="1;0;8;11;7" teams1="4;3;13;15;14" teams2="4;3;13;15;14" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;5;6;3;2" teams1="3;1;17;13;12" teams2="3;1;17;13;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;1;3;2" teams1="5;16;1;15" teams2="5;16;1;15" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="10" teams1="5;7" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="15" teams1="5;9" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="14;6;0;17;19;13" teams1="5;9;16;8;7;17" teams2="5;9;16;8;7;17" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;1;6;0;7" teams1="4;3;15;11;0" teams2="4;3;15;11;0" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="31" teams1="4;2" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="22" teams1="6;11" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="5;1;3;7;2" teams1="5;9;8;3;15" teams2="5;9;8;3;15" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;5;1;7" teams1="5;6;7;3" teams2="5;6;7;3" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;5;6;8" teams1="9;4;10;11" teams2="9;4;10;11" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;6;3;8;2" teams1="5;8;17;13;12" teams2="5;8;17;13;12" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="21" teams1="16;6" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="24" teams1="6;15" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;5;1;0" teams1="9;3;17;2" teams2="9;3;17;2" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="12" teams1="5;13" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="18" teams1="9;7" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="5;6;0;12;7" teams1="5;9;4;2;11" teams2="5;9;4;2;11" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="1;0;3;2" teams1="9;8;1;12" teams2="9;8;1;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;0;3;7;2" teams1="5;4;3;1;14" teams2="5;4;3;1;14" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;1;3;11;7" teams1="4;8;15;11;12" teams2="4;8;15;11;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;9;6;3;2" teams1="5;17;2;13;12" teams2="5;17;2;13;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="4;5;1;6;7" teams1="16;1;17;11;12" teams2="16;1;17;11;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="15;5;13;12;8;7" teams1="9;6;4;1;17;11" teams2="9;6;4;1;17;11" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="5;1;3;7;2" teams1="9;6;7;3;12" teams2="9;6;7;3;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="15;24;22;5;16;2" teams1="16;6;4;7;11;12" teams2="16;6;4;7;11;12" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="21;1;6;0;17;20" teams1="4;7;17;13;10;11" teams2="4;7;17;13;10;11" type="HARD"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="1" slots="1;6;0;8;7" teams1="5;8;7;1;12" teams2="5;8;7;1;12" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="11" teams1="5;6" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="32" teams1="9;0" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="5;10;12;7" teams1="9;16;8;2" teams2="9;16;8;2" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;28;13;16;7;27" teams1="7;1;13;15;14;11" teams2="7;1;13;15;14;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;5;17;18;2" teams1="5;16;10;0;12" teams2="5;16;10;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;9;5;1;14;12" teams1="16;6;8;2;15;14" teams2="16;6;8;2;15;14" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;9;33;2" teams1="5;1;17;14" teams2="5;1;17;14" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="11" teams1="8;2" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;14;12;26;32" teams1="16;8;3;15;11" teams2="16;8;3;15;11" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="5;1;18;3;2;20" teams1="6;4;1;2;13;0" teams2="6;4;1;2;13;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="6;18;8;7" teams1="7;13;15;0" teams2="7;13;15;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="22" teams1="16;15" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="26" teams1="16;12" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="1" teams1="8;1" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;4;28;8" teams1="17;14;11;0" teams2="17;14;11;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="18" teams1="5;11" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;15;4;31;7" teams1="3;1;13;15;10" teams2="3;1;13;15;10" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;4;14;17;10;13" teams1="9;6;4;8;11;12" teams2="9;6;4;8;11;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;5;1;32" teams1="8;3;2;0" teams2="8;3;2;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="10" teams1="10;11" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="13;7;26;2" teams1="6;17;2;0" teams2="6;17;2;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;29;18;13;33" teams1="16;6;10;0;12" teams2="16;6;10;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="24" teams1="5;9" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="30" teams1="5;6" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;4;29;6" teams1="5;16;7;2" teams2="5;16;7;2" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="17" teams1="9;0" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;0;17;3" teams1="16;3;10;0" teams2="16;3;10;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;19;7;27" teams1="6;8;1;0" teams2="6;8;1;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="20" teams1="1;13" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="5;31;19;26;2;27" teams1="6;4;7;3;13;11" teams2="6;4;7;3;13;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="29;6;8;33" teams1="5;9;6;2" teams2="5;9;6;2" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;9;21;28;31" teams1="5;4;17;2;13" teams2="5;4;17;2;13" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;31;6;18;3;33" teams1="4;7;17;13;14;10" teams2="4;7;17;13;14;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;19;7;2" teams1="5;3;14;11" teams2="5;3;14;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="20" teams1="13;15" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;15;4;30;18;8" teams1="5;9;3;1;17;11" teams2="5;9;3;1;17;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="3;16;11;26;2" teams1="5;16;1;11;12" teams2="5;16;1;11;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="17" teams1="2;0" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="26" teams1="0;12" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;15;21;1;18" teams1="5;1;17;14;10" teams2="5;1;17;14;10" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;30;9;1;7;27" teams1="9;8;7;17;2;10" teams2="9;8;7;17;2;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;5;17;8" teams1="5;9;1;0" teams2="5;9;1;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="31;17;10;7" teams1="9;8;7;13" teams2="9;8;7;13" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="23" teams1="5;16" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="5;14;17;18;16;20" teams1="5;9;16;4;1;11" teams2="5;9;16;4;1;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="9;1;19;3;16" teams1="9;4;8;7;11" teams2="9;4;8;7;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;5;17;3" teams1="1;15;10;11" teams2="1;15;10;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="33" teams1="4;0" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="23" teams1="16;3" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="15" teams1="7;2" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;5;18;13;12" teams1="6;7;3;2;15" teams2="6;7;3;2;15" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="28;6;17;18;32" teams1="6;3;2;14;0" teams2="6;3;2;14;0" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;9;14;17;3;12" teams1="6;7;3;15;11;12" teams2="6;7;3;15;11;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;1;3;16;32" teams1="5;17;15;14;10" teams2="5;17;15;14;10" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;14;29;13;11;20" teams1="5;6;8;2;13;0" teams2="5;6;8;2;13;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;16;26;2" teams1="5;8;0;12" teams2="5;8;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="16" teams1="6;0" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="9;28;14;29;0;11" teams1="8;1;2;15;11;12" teams2="8;1;2;15;11;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="5;0;16;33" teams1="5;15;14;0" teams2="5;15;14;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;28;5;3;7" teams1="5;9;6;2;11" teams2="5;9;6;2;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="9" teams1="8;17" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;15;17;10;8;11" teams1="5;9;6;8;17;14" teams2="5;9;6;8;17;14" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="5;29;0;8;32" teams1="9;4;8;0;12" teams2="9;4;8;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;15;22;18;12;32" teams1="5;9;4;13;15;0" teams2="5;9;4;13;15;0" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;0;17;11;26;2" teams1="16;7;3;1;14;11" teams2="16;7;3;1;14;11" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;4;1;14;6;20" teams1="5;6;7;17;15;0" teams2="5;6;7;17;15;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;10;16;33;2" teams1="6;1;2;14;11" teams2="6;1;2;14;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="29;6;18;33" teams1="4;3;1;2" teams2="4;3;1;2" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;29;17;18" teams1="9;4;8;11" teams2="9;4;8;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="2" teams1="2;0" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="28;17;19;3;16" teams1="16;3;1;13;0" teams2="16;3;1;13;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;30;17;32" teams1="7;11;0;12" teams2="7;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;24;14;19;11;7" teams1="5;7;2;13;10;11" teams2="5;7;2;13;10;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;31;3;2" teams1="9;6;8;14" teams2="9;6;8;14" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="30" teams1="15;12" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;5;1;31;33" teams1="9;7;3;0;12" teams2="9;7;3;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;5;1;29;3" teams1="9;8;7;17;14" teams2="9;8;7;17;14" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;4;5;10;19;11" teams1="16;17;2;13;15;0" teams2="16;17;2;13;15;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="10" teams1="5;9" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="10" teams1="13;14" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;31;26;27" teams1="16;6;2;0" teams2="16;6;2;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;24;8;26" teams1="9;3;17;13" teams2="9;3;17;13" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="0;17;10;19;2" teams1="5;4;3;13;12" teams2="5;4;3;13;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;5;0;19;18" teams1="16;8;7;1;10" teams2="16;8;7;1;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="28;10;19;26" teams1="16;8;13;14" teams2="16;8;13;14" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;31;7;26;20;27" teams1="5;16;2;13;14;12" teams2="5;16;2;13;14;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;18;16;26;2" teams1="4;3;1;14;10" teams2="4;3;1;14;10" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;21;28;31;26;20" teams1="9;1;17;2;14;10" teams2="9;1;17;2;14;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="20" teams1="16;8" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;24;22;27" teams1="6;8;7;11" teams2="6;8;7;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="16" teams1="11;12" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;4;8;7;2;20" teams1="5;1;2;10;0;12" teams2="5;1;2;10;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;22;26;20" teams1="5;1;11;0" teams2="5;1;11;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="7" teams1="6;7" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="14;3;8;2;32;20" teams1="16;7;3;2;15;12" teams2="16;7;3;2;15;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="16" teams1="6;4" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="23" teams1="8;7" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;30;6;32" teams1="14;10;11;0" teams2="14;10;11;0" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;0;13;16;26;20" teams1="4;7;13;15;14;12" teams2="4;7;13;15;14;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;4;14;16;27" teams1="16;4;7;13;0" teams2="16;4;7;13;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;23;30;8" teams1="4;2;10;0" teams2="4;2;10;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;24;30;19;32" teams1="5;3;2;14;10" teams2="5;3;2;14;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="17" teams1="6;4" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="17;19;11;27" teams1="7;13;0;12" teams2="7;13;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="20" teams1="0;12" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="24" teams1="15;10" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;15;24;28;1;7" teams1="5;16;17;13;14;11" teams2="5;16;17;13;14;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="30" teams1="17;14" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;5;29;26" teams1="9;4;3;12" teams2="9;4;3;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;13;3;12;8" teams1="16;7;3;2;10" teams2="16;7;3;2;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="10" teams1="4;2" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;29;17;18" teams1="9;1;13;14" teams2="9;1;13;14" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="17;19;8;20" teams1="16;8;3;12" teams2="16;8;3;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="26" teams1="17;12" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;30;31;26;2" teams1="9;4;7;3;12" teams2="9;4;7;3;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="10" teams1="7;13" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;22;28;3;33;11" teams1="9;6;4;13;14;12" teams2="9;6;4;13;14;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="28;1;29;17" teams1="9;8;13;10" teams2="9;8;13;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="7" teams1="4;3" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="28" teams1="8;2" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="2" teams1="8;1" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;21;1;16;33" teams1="9;7;1;17;13" teams2="9;7;1;17;13" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="1;10;18;33" teams1="9;1;10;11" teams2="9;1;10;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="10;18;33;2;20" teams1="5;16;7;13;12" teams2="5;16;7;13;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;19;16;33;2;27" teams1="5;4;3;1;17;14" teams2="5;4;3;1;17;14" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="20" teams1="6;7" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="1;6;0;17;13;2" teams1="5;8;13;14;10;11" teams2="5;8;13;14;10;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="26" teams1="3;11" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="9;6;10;19;27" teams1="4;7;1;17;15" teams2="4;7;1;17;15" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="11" teams1="13;11" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;29;19;18;33;32" teams1="5;9;17;13;11;0" teams2="5;9;17;13;11;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="5;18;12;8" teams1="5;13;14;11" teams2="5;13;14;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="0" teams1="7;0" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;31;6;13;27" teams1="5;6;2;13;10" teams2="5;6;2;13;10" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;28;5;29;12;27" teams1="5;6;3;15;10;11" teams2="5;6;3;15;10;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;22;17;12;16" teams1="16;17;15;11;0" teams2="16;17;15;11;0" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;24;22;31;11;32" teams1="5;16;6;4;8;15" teams2="5;16;6;4;8;15" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="3" teams1="9;14" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="4" teams1="13;12" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;18;3;12" teams1="6;8;3;14" teams2="6;8;3;14" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;21;10;12" teams1="8;1;17;15" teams2="8;1;17;15" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;9;0;16;11;7" teams1="5;8;7;14;11;12" teams2="5;8;7;14;11;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="11" teams1="6;8" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="12" teams1="15;10" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;28;13;20" teams1="6;3;15;0" teams2="6;3;15;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="13" teams1="9;11" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;1;8;26;2" teams1="9;16;2;15;0" teams2="9;16;2;15;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="6;18;16;32" teams1="5;13;15;11" teams2="5;13;15;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="11" teams1="16;7" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="23" teams1="2;15" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="23" teams1="5;9" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="29;8;33;27" teams1="9;1;2;11" teams2="9;1;2;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;5;6;0;3" teams1="8;1;2;15;10" teams2="8;1;2;15;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="14;18;8;7;20" teams1="9;6;15;14;12" teams2="9;6;15;14;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="9;21;31;12;8;11" teams1="5;6;4;3;17;15" teams2="5;6;4;3;17;15" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;15;24;21;14;33" teams1="9;7;3;13;0;12" teams2="9;7;3;13;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="17" teams1="16;10" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;30;14;8" teams1="4;13;11;12" teams2="4;13;11;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;17;13;7;26" teams1="9;4;3;10;0" teams2="9;4;3;10;0" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;24;1;19;18;12" teams1="4;7;15;14;10;11" teams2="4;7;15;14;10;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="5;31;13;3;20" teams1="5;16;3;1;17" teams2="5;16;3;1;17" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="9;28;6;33;11" teams1="16;4;1;0;12" teams2="16;4;1;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="5" teams1="1;14" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="28;1;13;32;27" teams1="16;4;8;14;10" teams2="16;4;8;14;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;5;0;18" teams1="6;7;0;12" teams2="6;7;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="15" teams1="3;2" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="14;19;18;16" teams1="6;8;17;14" teams2="6;8;17;14" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="18;12;8;16;11;2" teams1="5;6;7;2;10;11" teams2="5;6;7;2;10;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="28;5;3;16;2" teams1="1;2;11;0;12" teams2="1;2;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="9;5;19;12" teams1="9;10;11;12" teams2="9;10;11;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;9;28;31;10;16" teams1="6;1;15;14;0;12" teams2="6;1;15;14;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;24;22;14;10" teams1="5;16;3;15;14" teams2="5;16;3;15;14" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="14;31;0;13" teams1="16;6;0;12" teams2="16;6;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="31" teams1="9;14" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="6" teams1="1;15" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;28;10;8;16;26" teams1="16;6;4;10;0;12" teams2="16;6;4;10;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;31;17;12" teams1="4;15;11;12" teams2="4;15;11;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="31" teams1="14;0" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;5;1;19;26;20" teams1="6;4;8;1;13;10" teams2="6;4;8;1;13;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="33" teams1="6;0" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;23;4;9;5;7" teams1="9;7;1;10;11;12" teams2="9;7;1;10;11;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="28" teams1="10;11" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;21;19;13;11" teams1="6;17;15;10;11" teams2="6;17;15;10;11" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;0;8;16;33;11" teams1="16;8;7;15;10;11" teams2="16;8;7;15;10;11" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;21;10;3;8;27" teams1="5;9;17;2;15;0" teams2="5;9;17;2;15;0" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;31;19;12;11;27" teams1="5;16;4;8;14;11" teams2="5;16;4;8;14;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;21;13;32;27" teams1="4;8;3;15;11" teams2="4;8;3;15;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;10;19;18" teams1="6;3;10;11" teams2="6;3;10;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;22;1;7" teams1="6;13;10;12" teams2="6;13;10;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;14;32;27" teams1="1;10;11;0" teams2="1;10;11;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;6;3;12" teams1="16;3;11;0" teams2="16;3;11;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="31" teams1="16;17" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;18;13;16" teams1="5;4;17;12" teams2="5;4;17;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;9;28;17;11;20" teams1="5;16;7;2;13;0" teams2="5;16;7;2;13;0" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;4;17;19;33;11" teams1="5;16;7;3;2;14" teams2="5;16;7;3;2;14" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="5" teams1="3;13" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;22;1;14;31;8" teams1="6;7;17;13;10;12" teams2="6;7;17;13;10;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;5;6;0;32;27" teams1="9;16;6;4;8;1" teams2="9;16;6;4;8;1" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="33" teams1="4;13" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="5" teams1="5;14" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;9;1;3" teams1="7;2;10;12" teams2="7;2;10;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;9;17;3;12;7" teams1="16;4;8;1;17;11" teams2="16;4;8;1;17;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;9;28;12;20" teams1="1;17;2;15;10" teams2="1;17;2;15;10" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;21;0;10;8;32" teams1="9;6;8;17;14;12" teams2="9;6;8;17;14;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="24" teams1="3;13" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;29;3;33" teams1="16;8;17;2" teams2="16;8;17;2" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="18" teams1="4;17" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;22;21;6;8" teams1="5;8;14;11;12" teams2="5;8;14;11;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;4;6;33;7;27" teams1="7;17;2;13;15;11" teams2="7;17;2;13;15;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="28" teams1="6;15" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="12" teams1="3;2" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="10" teams1="8;11" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="29" teams1="15;0" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="26" teams1="13;0" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="5" teams1="6;11" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="22" teams1="3;13" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;21;28;5;16;27" teams1="8;3;1;2;10;11" teams2="8;3;1;2;10;11" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;22;5;6;18;33" teams1="4;3;15;14;10;0" teams2="4;3;15;14;10;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="28" teams1="8;10" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="6" teams1="7;12" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="18" teams1="6;7" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;21;14;26;27" teams1="5;6;4;8;10" teams2="5;6;4;8;10" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;23;1;29;10;11" teams1="16;4;1;13;15;12" teams2="16;4;1;13;15;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="12" teams1="13;14" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="5;29;6;18;13;12" teams1="9;8;7;17;14;0" teams2="9;8;7;17;14;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="9;21;10;7" teams1="16;17;2;10" teams2="16;17;2;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;14;6;17;13" teams1="6;8;2;11;12" teams2="6;8;2;11;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;21;14;10;8;20" teams1="9;16;1;17;13;14" teams2="9;16;1;17;13;14" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="26" teams1="10;12" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="30" teams1="8;12" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="24" teams1="15;0" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;9;28;14;0;11" teams1="17;2;15;14;10;12" teams2="17;2;15;14;10;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;29;19;18;13" teams1="9;1;17;2;12" teams2="9;1;17;2;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;4;17;33;7" teams1="16;6;2;15;0" teams2="16;6;2;15;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;4;22;29" teams1="4;8;2;12" teams2="4;8;2;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;29;6;2" teams1="5;4;8;14" teams2="5;4;8;14" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="0;8;33;20;27" teams1="6;4;7;10;11" teams2="6;4;7;10;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;21;0;17" teams1="3;1;2;11" teams2="3;1;2;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;5;13;27" teams1="7;2;13;12" teams2="7;2;13;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;22;1;29;20" teams1="5;9;4;3;13" teams2="5;9;4;3;13" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;22;14;31;8;2" teams1="9;8;1;2;13;10" teams2="9;8;1;2;13;10" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="14;31;6;2;20;27" teams1="5;16;7;1;11;0" teams2="5;16;7;1;11;0" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="1;6;17;12;8;20" teams1="5;8;17;15;14;0" teams2="5;8;17;15;14;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;19;3;2;20" teams1="5;8;17;13;14" teams2="5;8;17;13;14" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;9;17;3;8;16" teams1="5;6;7;17;0;12" teams2="5;6;7;17;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="12" teams1="2;0" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;31;0;3;12" teams1="9;8;13;0;12" teams2="9;8;13;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="11" teams1="16;7" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="31;6;8;20" teams1="4;1;0;12" teams2="4;1;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;21;13;27" teams1="8;3;13;10" teams2="8;3;13;10" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;9;5;6;18;7" teams1="16;6;3;2;15;12" teams2="16;6;3;2;15;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;21;10;11;32" teams1="5;7;2;11;12" teams2="5;7;2;11;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;0;13;8;11" teams1="5;4;8;7;10" teams2="5;4;8;7;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="1" teams1="15;10" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="25" teams1="16;8" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;30;9;5;13;16" teams1="16;7;1;17;2;15" teams2="16;7;1;17;2;15" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="1;19;18;13;7;32" teams1="16;8;3;1;2;11" teams2="16;8;3;1;2;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;19;18;27" teams1="1;17;2;14" teams2="1;17;2;14" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;28;17;18" teams1="6;3;13;12" teams2="6;3;13;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="8" teams1="5;13" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;14;17;8" teams1="8;1;13;15" teams2="8;1;13;15" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="1;31;12;16" teams1="9;4;2;12" teams2="9;4;2;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;14;0;12;8;11" teams1="16;17;13;10;11;0" teams2="16;17;13;10;11;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;28;5;33" teams1="5;7;1;12" teams2="5;7;1;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="26" teams1="4;12" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;4;5;8" teams1="4;7;1;13" teams2="4;7;1;13" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;30;28;6;8;7" teams1="9;7;3;14;11;0" teams2="9;7;3;14;11;0" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;24;9;29;8;11" teams1="3;13;14;10;0;12" teams2="3;13;14;10;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;30;21;14;8;16" teams1="5;3;17;2;15;11" teams2="5;3;17;2;15;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="13" teams1="2;14" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;30;1;10;26" teams1="5;9;15;14;0" teams2="5;9;15;14;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="4" teams1="5;13" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="23" teams1="16;6" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="14;10;18;32;27" teams1="16;6;13;15;14" teams2="16;6;13;15;14" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="33;26;32;20" teams1="9;8;10;0" teams2="9;8;10;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="22" teams1="8;7" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="5;29;11;7" teams1="7;1;17;15" teams2="7;1;17;15" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="17" teams1="13;14" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;6;13;33" teams1="16;4;7;2" teams2="16;4;7;2" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;9;12;27" teams1="7;1;17;15" teams2="7;1;17;15" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="1;17;19;26;27" teams1="5;8;17;15;0" teams2="5;8;17;15;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;22;17;33" teams1="9;17;2;14" teams2="9;17;2;14" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="18" teams1="1;2" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;9;1;6;3;27" teams1="5;16;8;3;13;0" teams2="5;16;8;3;13;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;4;1;13;2" teams1="9;4;1;0;12" teams2="9;4;1;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="9;5;11;26;32;20" teams1="4;8;1;2;14;11" teams2="4;8;1;2;14;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="9" teams1="4;11" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="15" teams1="6;1" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;6;18;32;20" teams1="16;7;13;14;10" teams2="16;7;13;14;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;15;9;7;26" teams1="4;3;1;13;10" teams2="4;3;1;13;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;31;10;18;16" teams1="4;3;13;14;10" teams2="4;3;13;14;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="5;14;16;26" teams1="4;8;3;15" teams2="4;8;3;15" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="20" teams1="17;12" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;21;5;11" teams1="5;7;17;12" teams2="5;7;17;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="1" teams1="4;7" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="9;21;14;3;7" teams1="4;8;2;15;0" teams2="4;8;2;15;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="15" teams1="15;14" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="13" teams1="9;11" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;17;18;11;2;32" teams1="16;7;17;13;14;10" teams2="16;7;17;13;14;10" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="5;17;12;16;11;27" teams1="6;17;15;10;11;0" teams2="6;17;15;10;11;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;6;18;16" teams1="5;6;1;15" teams2="5;6;1;15" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="21;12;7;2" teams1="9;16;17;2" teams2="9;16;17;2" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;6;0;10;19;20" teams1="9;16;6;8;15;0" teams2="9;16;6;8;15;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="19" teams1="7;10" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;21;0;8" teams1="5;7;3;15" teams2="5;7;3;15" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;24;19;12;33;20" teams1="9;16;8;3;13;10" teams2="9;16;8;3;13;10" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;21;17;19;8;32" teams1="9;4;17;15;10;12" teams2="9;4;17;15;10;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;12;7;20" teams1="4;13;14;11" teams2="4;13;14;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;30;1;11" teams1="6;3;15;10" teams2="6;3;15;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="24" teams1="7;14" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;31;12;20;27" teams1="9;4;17;10;11" teams2="9;4;17;10;11" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;29;10;19" teams1="5;6;1;2" teams2="5;6;1;2" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;24;14;13;33;11" teams1="6;4;3;13;15;0" teams2="6;4;3;13;15;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="1" teams1="8;7" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="1" teams1="15;0" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;6;3;8;32" teams1="4;7;1;11;12" teams2="4;7;1;11;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;22;29;10;7;20" teams1="8;1;2;11;0;12" teams2="8;1;2;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="25;23;29;6;3;12" teams1="9;8;13;15;11;12" teams2="9;8;13;15;11;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;4;21;1;19" teams1="5;16;4;1;17" teams2="5;16;4;1;17" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="25" teams1="5;8" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="24;17;10;27" teams1="8;1;15;11" teams2="8;1;15;11" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;15;14;33;11;32" teams1="5;16;3;17;2;0" teams2="5;16;3;17;2;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="29;6;17;13;27" teams1="5;8;1;11;0" teams2="5;8;1;11;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;5;0;16" teams1="5;6;17;13" teams2="5;6;17;13" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;4;0;12;26" teams1="1;17;2;13;12" teams2="1;17;2;13;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;4;13;11" teams1="4;8;13;14" teams2="4;8;13;14" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="23" teams1="5;1" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;28;0;3;11" teams1="16;8;14;11;0" teams2="16;8;14;11;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="26" teams1="5;4" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;28;5;11;26;27" teams1="5;16;1;2;14;0" teams2="5;16;1;2;14;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="17" teams1="8;15" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="10" teams1="9;16" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="4;1;29;33" teams1="9;4;8;10" teams2="9;4;8;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="20" teams1="4;13" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="22;18;7;26" teams1="8;1;13;14" teams2="8;1;13;14" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="5" slots="7" teams1="5;9" teams2="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;9;5;31;13" teams1="1;2;15;14;10" teams2="1;2;15;14;10" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="23;15;29;10;12;11" teams1="16;8;13;14;0;12" teams2="16;8;13;14;0;12" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;31;6;18;33;20" teams1="6;8;7;17;14;10" teams2="6;8;7;17;14;10" type="SOFT"/>
+            <CA4 max="2" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="15;4;30;10;13;20" teams1="9;8;3;14;10;0" teams2="9;8;3;14;10;0" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="30;21;17;32;20" teams1="7;17;15;14;10" teams2="7;17;15;14;10" type="SOFT"/>
+            <CA4 max="1" min="0" mode1="H" mode2="GLOBAL" penalty="5" slots="5;19;7;32" teams1="6;4;15;11" teams2="6;4;15;11" type="SOFT"/>
+        </CapacityConstraints>
+        <GameConstraints>
+            <GA1 max="0" meetings="9,2;" min="0" penalty="1" slots="4" type="SOFT"/>
+        </GameConstraints>
+        <BreakConstraints>
+            <BR1 intp="0" mode1="LEQ" mode2="HA" penalty="5" slots="20" teams="7" type="SOFT"/>
+            <BR1 intp="1" mode1="LEQ" mode2="HA" penalty="5" slots="23;21;6" teams="8" type="SOFT"/>
+            <BR1 intp="1" mode1="LEQ" mode2="HA" penalty="5" slots="19;8;33" teams="15" type="SOFT"/>
+            <BR1 intp="0" mode1="LEQ" mode2="HA" penalty="5" slots="19" teams="10" type="SOFT"/>
+            <BR1 intp="1" mode1="LEQ" mode2="HA" penalty="5" slots="7;32;27" teams="17" type="SOFT"/>
+            <BR1 intp="2" mode1="LEQ" mode2="HA" penalty="5" slots="21;28;5;1;29;33" teams="9" type="SOFT"/>
+            <BR1 intp="0" mode1="LEQ" mode2="HA" penalty="5" slots="20" teams="0" type="SOFT"/>
+            <BR1 intp="0" mode1="LEQ" mode2="HA" penalty="5" slots="11" teams="11" type="SOFT"/>
+            <BR1 intp="0" mode1="LEQ" mode2="HA" penalty="5" slots="12" teams="12" type="SOFT"/>
+            <BR1 intp="2" mode1="LEQ" mode2="HA" penalty="5" slots="30;5;6;0;18;33" teams="4" type="SOFT"/>
+            <BR1 intp="2" mode1="LEQ" mode2="HA" penalty="5" slots="4;10;8;26;32;20" teams="7" type="SOFT"/>
+            <BR1 intp="2" mode1="LEQ" mode2="HA" penalty="5" slots="15;24;5;1;29;18" teams="16" type="SOFT"/>
+            <BR1 intp="1" mode1="LEQ" mode2="HA" penalty="5" slots="22;21;5" teams="6" type="SOFT"/>
+            <BR1 intp="1" mode1="LEQ" mode2="HA" penalty="5" slots="9;8;27" teams="16" type="SOFT"/>
+            <BR1 intp="1" mode1="LEQ" mode2="HA" penalty="5" slots="13;11;20" teams="5" type="SOFT"/>
+            <BR1 intp="0" mode1="LEQ" mode2="HA" penalty="5" slots="20" teams="16" type="SOFT"/>
+            <BR1 intp="2" mode1="LEQ" mode2="HA" penalty="5" slots="25;30;1;31;10;11" teams="5" type="SOFT"/>
+            <BR1 intp="0" mode1="LEQ" mode2="HA" penalty="5" slots="10" teams="9" type="SOFT"/>
+            <BR1 intp="2" mode1="LEQ" mode2="HA" penalty="5" slots="25;23;15;9;14;10" teams="8" type="SOFT"/>
+            <BR1 intp="1" mode1="LEQ" mode2="HA" penalty="5" slots="28;31;11" teams="9" type="SOFT"/>
+            <BR1 intp="1" mode1="LEQ" mode2="HA" penalty="5" slots="9;8;26" teams="4" type="SOFT"/>
+            <BR1 intp="0" mode1="LEQ" mode2="HA" penalty="5" slots="5" teams="16" type="SOFT"/>
+            <BR1 intp="0" mode1="LEQ" mode2="HA" penalty="5" slots="9" teams="6" type="SOFT"/>
+            <BR1 intp="0" mode1="LEQ" mode2="HA" penalty="5" slots="16" teams="8" type="SOFT"/>
+        </BreakConstraints>
+        <FairnessConstraints>
+            <FA2 intp="2" mode="H" penalty="10" slots="25;23;15;24;4;22;30;9;21;28;5;1;14;31;29;6;0;17;10;19;18;13;3;12;8;16;33;11;7;26;2;32;20;27" teams="5;9;16;6;4;8;7;3;1;17;2;13;15;14;10;11;0;12" type="SOFT"/>
+        </FairnessConstraints>
+        <SeparationConstraints/>
+    </Constraints>
+</Instance>

@@ -1,0 +1,26 @@
+java -jar itc2021.jar ITC2021_Middle_6.xml ITC2021_Middle_6Soln.xml -start ITC2021_Middle_6Soln.xml -seed 3 -time 10800 -verbose 0 -fixOptTime 200
+
+Instance....: Middle6
+Algorithm...: Descent
+Other params: maxIters=1000K, seed=3, timeLimit=10800.00s
+
+    /------------------------------------------------------------\
+    |     Iter |   Gap(%) |         S* |         S' |       Time | 
+    |----------|----------|------------|------------|------------|
+Academic license - for non-commercial use only - expires 2021-06-11
+    |        0 |        - |       1680 |       1680 |       1.39 | s0
+    |       78 |        - |       1675 |       1675 |    4320.06 | *
+    \------------------------------------------------------------/
+
+Neighborhoods statistics (values in %):
+
+    /----------------------------------------------------------------\
+    | Move               | Improvs. | Sideways |  Accepts |  Rejects |
+    |--------------------|----------|----------|----------|----------|
+    | SlotsMIP           |        0 |       96 |       96 |        0 |
+    | TeamsMIP           |        1 |       86 |       87 |        0 |
+    \----------------------------------------------------------------/
+
+Best cost.........: 1675
+N. of Iterations..: 183
+Total runtime.....: 10801.87s

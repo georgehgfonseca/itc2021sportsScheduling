@@ -1,0 +1,29 @@
+java -jar itc2021.jar ITC2021_Middle_12.xml ITC2021_Middle_12Soln.xml -start ITC2021_Middle_12Soln.xml -seed 4 -time 10800 -verbose 0 -fixOptTime 200 -tables ITC2021_Middle_12Soln.html -algorithm descent -n 0,1 -n 1,1 -n 2,0 -n 3,0 -n 4,0 -n 5,0 -n 6,0
+
+Instance....: Middle12
+Algorithm...: Descent
+Other params: maxIters=1000K, seed=4, timeLimit=10800.00s
+
+    /------------------------------------------------------------\
+    |     Iter |   Gap(%) |         S* |         S' |       Time | 
+    |----------|----------|------------|------------|------------|
+Academic license - for non-commercial use only - expires 2021-06-11
+    |        0 |        - |       1084 |       1084 |       2.83 | s0
+    |       35 |        - |       1078 |       1078 |    2149.47 | *
+    |       44 |        - |       1073 |       1073 |    2632.66 | *
+    |      143 |        - |       1053 |       1053 |    9196.69 | *
+    \------------------------------------------------------------/
+
+Neighborhoods statistics (values in %):
+
+    /----------------------------------------------------------------\
+    | Move               | Improvs. | Sideways |  Accepts |  Rejects |
+    |--------------------|----------|----------|----------|----------|
+    | SlotsMIP           |        2 |       89 |       91 |        0 |
+    | TeamsMIP           |        1 |       83 |       84 |        0 |
+    \----------------------------------------------------------------/
+
+Best cost.........: 1053
+N. of Iterations..: 175
+Total runtime.....: 10804.06s
+File ITC2021_Middle_12Soln.html successfully generated.

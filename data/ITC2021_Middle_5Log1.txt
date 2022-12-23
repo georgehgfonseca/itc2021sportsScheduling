@@ -1,0 +1,49 @@
+java -jar itc2021.jar ITC2021_Middle_5.xml ITC2021_Middle_5Soln.xml -start ITC2021_Middle_5Soln.xml -seed 1 -time 10800 -verbose 0 -fixOptTime 100
+
+Instance....: Middle5
+Algorithm...: ILS (rnaMax=50K, itersP=50, p0=1, pMax=20)
+Other params: maxIters=1000K, seed=1, timeLimit=10800.00s
+
+    /------------------------------------------------------------\
+    |     Iter |   Gap(%) |         S* |         S' |       Time | 
+    |----------|----------|------------|------------|------------|
+Academic license - for non-commercial use only - expires 2021-06-11
+    |        0 |        - |        592 |        592 |       1.36 | s0
+    | ILS perturbation level=1                      |    3523.35 | 
+    |      50K |        - |        592 |        723 |    3523.36 | p-1
+    |      50K |        - |        632 |        632 |    3523.36 | *
+    |      51K |        - |        613 |        613 |    3546.84 | *
+    |      51K |        - |        612 |        612 |    3546.86 | *
+    |      51K |        - |        592 |        592 |    3546.86 | *
+    |     100K |        - |        592 |        592 |    9000.64 | 
+    |     101K |        - |        592 |        592 |    9165.33 | p-1
+    | ILS perturbation level=1                      |    9165.33 | 
+    |     101K |        - |        592 |        762 |    9165.34 | p-1
+    |     102K |        - |        752 |        752 |    9165.34 | *
+    |     102K |        - |        732 |        732 |    9165.35 | *
+    |     102K |        - |        722 |        722 |    9165.35 | *
+    |     102K |        - |        612 |        612 |    9265.56 | *
+    |     103K |        - |        592 |        592 |    9265.58 | *
+    |     126K |        - |        592 |        592 |   10802.03 | p-1
+    \------------------------------------------------------------/
+
+Neighborhoods statistics (values in %):
+
+    /----------------------------------------------------------------\
+    | Move               | Improvs. | Sideways |  Accepts |  Rejects |
+    |--------------------|----------|----------|----------|----------|
+    | PartialRoundSwap   |        0 |     1034 |     1034 |      15K |
+    | SwapHomeTeam       |        4 |       60 |       64 |      15K |
+    | SwapSlots          |        0 |        0 |        0 |      16K |
+    | SwapTeams          |        0 |        0 |        0 |      16K |
+    | 2-SwapSlots        |        0 |       83 |       83 |      16K |
+    | 2-SwapSlots        |        0 |        0 |        0 |      16K |
+    | 2-SwapHomeTeams    |        4 |       95 |       99 |      16K |
+    | 2-SwapHomeTeams    |        0 |        3 |        3 |      16K |
+    | SlotsMIP           |        0 |      157 |      157 |        0 |
+    | TeamsMIP           |        1 |      141 |      142 |        0 |
+    \----------------------------------------------------------------/
+
+Best cost.........: 592
+N. of Iterations..: 125824
+Total runtime.....: 10802.03s

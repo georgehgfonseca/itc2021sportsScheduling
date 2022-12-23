@@ -1,0 +1,484 @@
+
+Gurobi 9.1.0 (win64, gurobi_cl) logging started Fri Jan  8 10:41:03 2021
+
+Using license file C:\Users\George\gurobi.lic
+Set parameter TimeLimit to value 3600
+Set parameter LogFile to value model.txt
+Academic license - for non-commercial use only - expires 2021-01-31
+
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Copyright (c) 2020, Gurobi Optimization, LLC
+
+Read LP format model from file model_stt.lp
+Reading time = 0.00 seconds
+: 21 rows, 24 columns, 96 nonzeros
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 21 rows, 24 columns and 96 nonzeros
+Model fingerprint: 0x7fbd8e87
+Variable types: 0 continuous, 24 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve removed 0 rows and 24 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0        21         -         0        48         -           0s
+        4         4         -         0         0         -           0s
+
+IIS computed: 4 constraints, 0 bounds
+IIS runtime: 0.03 seconds
+
+Wrote result file 'model.ilp'
+
+
+Gurobi 9.1.0 (win64, gurobi_cl) logging started Fri Jan  8 12:57:52 2021
+
+Using license file C:\Users\George\gurobi.lic
+Set parameter TimeLimit to value 3600
+Set parameter LogFile to value model.txt
+Academic license - for non-commercial use only - expires 2021-01-31
+
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Copyright (c) 2020, Gurobi Optimization, LLC
+
+Read LP format model from file model_stt.lp
+Reading time = 0.01 seconds
+: 261 rows, 413 columns, 4428 nonzeros
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 261 rows, 413 columns and 4428 nonzeros
+Model fingerprint: 0xeb14ba45
+Variable types: 0 continuous, 413 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+00]
+Presolve removed 34 rows and 55 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.06 seconds
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       261         -         0       826         -           0s
+        3         3         -         1         1         -           0s
+
+IIS computed: 3 constraints, 1 bounds
+IIS runtime: 0.07 seconds
+
+Wrote result file 'model.ilp'
+
+
+Gurobi 9.1.0 (win64, gurobi_cl) logging started Fri Jan  8 14:24:35 2021
+
+Using license file C:\Users\George\gurobi.lic
+Set parameter TimeLimit to value 3600
+Set parameter LogFile to value model.txt
+Academic license - for non-commercial use only - expires 2021-01-31
+
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Copyright (c) 2020, Gurobi Optimization, LLC
+
+Read LP format model from file model_stt.lp
+Reading time = 0.01 seconds
+: 292 rows, 428 columns, 4538 nonzeros
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 292 rows, 428 columns and 4538 nonzeros
+Model fingerprint: 0x49016c51
+Variable types: 0 continuous, 428 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+00]
+Presolve removed 42 rows and 84 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.04 seconds
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       292         -         0       728         -           0s
+        2         2         -         7         7         -           0s
+
+IIS computed: 2 constraints, 7 bounds
+IIS runtime: 0.08 seconds
+
+Wrote result file 'model.ilp'
+
+
+Gurobi 9.1.0 (win64, gurobi_cl) logging started Sat Jan  9 10:23:54 2021
+
+Using license file C:\Users\George\gurobi.lic
+Set parameter TimeLimit to value 3600
+Set parameter LogFile to value model.txt
+Academic license - for non-commercial use only - expires 2021-01-31
+
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Copyright (c) 2020, Gurobi Optimization, LLC
+
+Read LP format model from file model_stt.lp
+Reading time = 0.02 seconds
+: 3160 rows, 608 columns, 11354 nonzeros
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 3160 rows, 608 columns and 11354 nonzeros
+Model fingerprint: 0x4c68652c
+Variable types: 0 continuous, 608 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+01]
+Presolve removed 2777 rows and 413 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.05 seconds
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0      3160         -         0      1028         -           0s
+        3      1950        10         0       796         -           5s
+        7      1946        10         0       795         -          10s
+       18      1944        18         0       793         -          15s
+       28      1942        28         0       792         -          20s
+       36      1918       100         0       790         -          25s
+       36      1918         -         0       790         -          25s
+
+Non-minimal IIS computed: 1918 constraints, 790 bounds
+IIS runtime: 25.07 seconds
+
+Wrote result file 'model.ilp'
+
+
+Gurobi 9.1.0 (win64, gurobi_cl) logging started Sat Jan  9 10:26:28 2021
+
+Using license file C:\Users\George\gurobi.lic
+Set parameter TimeLimit to value 3600
+Set parameter LogFile to value model.txt
+Academic license - for non-commercial use only - expires 2021-01-31
+
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Copyright (c) 2020, Gurobi Optimization, LLC
+
+Read LP format model from file model_stt.lp
+Reading time = 0.01 seconds
+: 760 rows, 608 columns, 8954 nonzeros
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 760 rows, 608 columns and 8954 nonzeros
+Model fingerprint: 0x8c1d5a41
+Variable types: 0 continuous, 608 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+01]
+Presolve removed 42 rows and 70 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.05 seconds
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0       760         -         0      1028         -           0s
+       22        22         -         0         0         -           0s
+
+IIS computed: 22 constraints, 0 bounds
+IIS runtime: 0.15 seconds
+
+Wrote result file 'model.ilp'
+
+
+Gurobi 9.1.0 (win64, gurobi_cl) logging started Sat Jan  9 14:41:33 2021
+
+Using license file C:\Users\George\gurobi.lic
+Set parameter TimeLimit to value 3600
+Set parameter LogFile to value model.txt
+Academic license - for non-commercial use only - expires 2021-01-31
+
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Copyright (c) 2020, Gurobi Optimization, LLC
+
+Read LP format model from file model_stt.lp
+Reading time = 0.01 seconds
+: 1906 rows, 1939 columns, 10927 nonzeros
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 1906 rows, 1939 columns and 10927 nonzeros
+Model fingerprint: 0xfd6f0897
+Variable types: 0 continuous, 1939 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+01]
+Presolve removed 667 rows and 574 columns
+Presolve time: 0.01s
+Presolved: 1239 rows, 1365 columns, 6745 nonzeros
+Variable types: 0 continuous, 1365 integer (1296 binary)
+
+Root relaxation: objective 1.664000e+02, 1001 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  166.40000    0  123          -  166.40000      -     -    0s
+     0     0  191.01282    0  175          -  191.01282      -     -    0s
+     0     0  231.68708    0  201          -  231.68708      -     -    0s
+     0     0  233.01699    0  199          -  233.01699      -     -    0s
+     0     0  233.02008    0  198          -  233.02008      -     -    0s
+     0     0  669.45277    0  250          -  669.45277      -     -    0s
+     0     0  688.32752    0  255          -  688.32752      -     -    0s
+     0     0  934.00926    0  264          -  934.00926      -     -    0s
+     0     0  982.68750    0  263          -  982.68750      -     -    0s
+     0     0  982.68750    0  255          -  982.68750      -     -    0s
+H    0     0                    1145.0000000  982.68750  14.2%     -    0s
+H    0     0                    1129.0000000  982.68750  13.0%     -    0s
+     0     0 1042.25000    0  190 1129.00000 1042.25000  7.68%     -    0s
+     0     0 1062.12500    0  213 1129.00000 1062.12500  5.92%     -    0s
+     0     0 1062.16667    0  185 1129.00000 1062.16667  5.92%     -    0s
+     0     0 1067.50000    0  160 1129.00000 1067.50000  5.45%     -    0s
+     0     0 1067.50000    0  166 1129.00000 1067.50000  5.45%     -    0s
+     0     0 1067.75000    0  146 1129.00000 1067.75000  5.43%     -    1s
+     0     0 1067.75000    0  135 1129.00000 1067.75000  5.43%     -    1s
+     0     2 1068.00000    0  135 1129.00000 1068.00000  5.40%     -    1s
+*   56    58               5    1101.0000000 1078.85714  2.01%   171    1s
+*  347   171              18    1100.0000000 1079.71429  1.84%   110    2s
+
+Cutting planes:
+  Clique: 12
+  MIR: 8
+  Zero half: 39
+  RLT: 272
+  Relax-and-lift: 2
+
+Explored 797 nodes (86494 simplex iterations) in 2.84 seconds
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 1100 1101 1129 1145 
+
+Solve interrupted
+Best objective 1.100000000000e+03, best bound 1.083000000000e+03, gap 1.5455%
+
+No IIS available for current model
+
+
+Gurobi 9.1.0 (win64, gurobi_cl) logging started Sat Jan  9 14:43:34 2021
+
+Using license file C:\Users\George\gurobi.lic
+Set parameter TimeLimit to value 3600
+Set parameter LogFile to value model.txt
+Academic license - for non-commercial use only - expires 2021-01-31
+
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Copyright (c) 2020, Gurobi Optimization, LLC
+
+Read LP format model from file model_stt.lp
+Reading time = 0.01 seconds
+: 1906 rows, 1939 columns, 10927 nonzeros
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 1906 rows, 1939 columns and 10927 nonzeros
+Model fingerprint: 0xfd6f0897
+Variable types: 0 continuous, 1939 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+01]
+Presolve removed 667 rows and 574 columns
+Presolve time: 0.01s
+Presolved: 1239 rows, 1365 columns, 6745 nonzeros
+Variable types: 0 continuous, 1365 integer (1296 binary)
+
+Root relaxation: objective 1.664000e+02, 1001 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  166.40000    0  123          -  166.40000      -     -    0s
+     0     0  191.01282    0  175          -  191.01282      -     -    0s
+     0     0  231.68708    0  201          -  231.68708      -     -    0s
+     0     0  233.01699    0  199          -  233.01699      -     -    0s
+     0     0  233.02008    0  198          -  233.02008      -     -    0s
+     0     0  669.45277    0  250          -  669.45277      -     -    0s
+     0     0  688.32752    0  255          -  688.32752      -     -    0s
+     0     0  934.00926    0  264          -  934.00926      -     -    0s
+     0     0  982.68750    0  263          -  982.68750      -     -    0s
+     0     0  982.68750    0  255          -  982.68750      -     -    0s
+H    0     0                    1145.0000000  982.68750  14.2%     -    0s
+H    0     0                    1129.0000000  982.68750  13.0%     -    0s
+     0     0 1042.25000    0  190 1129.00000 1042.25000  7.68%     -    0s
+     0     0 1062.12500    0  213 1129.00000 1062.12500  5.92%     -    0s
+     0     0 1062.16667    0  185 1129.00000 1062.16667  5.92%     -    0s
+     0     0 1067.50000    0  160 1129.00000 1067.50000  5.45%     -    0s
+     0     0 1067.50000    0  166 1129.00000 1067.50000  5.45%     -    0s
+     0     0 1067.75000    0  146 1129.00000 1067.75000  5.43%     -    0s
+     0     0 1067.75000    0  135 1129.00000 1067.75000  5.43%     -    1s
+     0     2 1068.00000    0  135 1129.00000 1068.00000  5.40%     -    1s
+*   56    58               5    1101.0000000 1078.85714  2.01%   171    1s
+
+Cutting planes:
+  Clique: 8
+  MIR: 8
+  Zero half: 39
+  RLT: 268
+  Relax-and-lift: 2
+
+Explored 149 nodes (26728 simplex iterations) in 1.85 seconds
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 1101 1129 1145 
+
+Solve interrupted
+Best objective 1.101000000000e+03, best bound 1.079000000000e+03, gap 1.9982%
+
+No IIS available for current model
+
+
+Gurobi 9.1.0 (win64, gurobi_cl) logging started Sat Jan  9 14:45:19 2021
+
+Using license file C:\Users\George\gurobi.lic
+Set parameter TimeLimit to value 3600
+Set parameter LogFile to value model.txt
+Academic license - for non-commercial use only - expires 2021-01-31
+
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Copyright (c) 2020, Gurobi Optimization, LLC
+
+Read LP format model from file model_stt.lp
+Reading time = 0.01 seconds
+: 1906 rows, 1939 columns, 10927 nonzeros
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 1906 rows, 1939 columns and 10927 nonzeros
+Model fingerprint: 0xf6524ebe
+Variable types: 0 continuous, 1939 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+01]
+Presolve removed 118 rows and 189 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0      1906         -         0      3709         -           0s
+        3         3         -        11        11         -           0s
+
+IIS computed: 3 constraints, 11 bounds
+IIS runtime: 0.06 seconds
+
+Wrote result file 'model.ilp'
+
+
+Gurobi 9.1.0 (win64, gurobi_cl) logging started Sun Jan 10 14:50:10 2021
+
+Using license file C:\Users\George\gurobi.lic
+Set parameter TimeLimit to value 3600
+Set parameter LogFile to value model.txt
+Academic license - for non-commercial use only - expires 2021-01-31
+
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Copyright (c) 2020, Gurobi Optimization, LLC
+
+Read LP format model from file model_stt.lp
+Reading time = 0.23 seconds
+: 7611 rows, 20951 columns, 294401 nonzeros
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 7611 rows, 20951 columns and 294401 nonzeros
+Model fingerprint: 0xb746bc49
+Variable types: 0 continuous, 20951 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+02]
+Presolve removed 73 rows and 113 columns
+Presolve time: 0.37s
+Presolved: 7538 rows, 20838 columns, 293715 nonzeros
+Variable types: 0 continuous, 20838 integer (15925 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    5618    2.0002495e+00   6.346566e+03   0.000000e+00      5s
+    9454    2.0003574e+00   3.025088e+03   0.000000e+00     10s
+   13014    2.0004212e+00   3.143196e+03   0.000000e+00     15s
+
+Root relaxation: interrupted, 13224 iterations, 14.81 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0          -    0               -    1.00000      -     -   15s
+
+Explored 0 nodes (13224 simplex iterations) in 15.37 seconds
+Thread count was 12 (of 12 available processors)
+
+Solution count 0
+
+Solve interrupted
+Best objective -, best bound 1.000000000000e+00, gap -
+
+No IIS available for current model
+

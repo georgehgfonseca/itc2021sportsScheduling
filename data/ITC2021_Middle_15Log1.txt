@@ -1,0 +1,19 @@
+java -jar itc2021.jar ITC2021_Middle_15.xml ITC2021_Middle_15Soln.xml -start ITC2021_Middle_15Soln.xml -seed 1 -time 10800 -verbose 0 -fixOptTime 100
+
+Instance....: Middle15
+Algorithm...: ILS (rnaMax=50K, itersP=50, p0=1, pMax=20)
+Other params: maxIters=1000K, seed=1, timeLimit=10800.00s
+
+    /------------------------------------------------------------\
+    |     Iter |   Gap(%) |         S* |         S' |       Time | 
+    |----------|----------|------------|------------|------------|
+Academic license - for non-commercial use only - expires 2021-06-11
+    |        0 |        - |       1089 |       1089 |       1.52 | s0
+    | ILS perturbation level=1                      |    4262.17 | 
+    |      50K |        - |       1089 |       1129 |    4262.17 | p-1
+    |      51K |        - |       1089 |       1089 |    4262.19 | *
+    |     100K |        - |       1089 |       1089 |    7312.63 | 
+    |     101K |        - |       1089 |       1089 |    7412.75 | p-1
+    | ILS perturbation level=1                      |    7412.75 | 
+    |     101K |        - |       1089 |       1149 |    7412.76 | p-1
+    |     101K |        - |       1089 |       1089 |    7513.72 | *
