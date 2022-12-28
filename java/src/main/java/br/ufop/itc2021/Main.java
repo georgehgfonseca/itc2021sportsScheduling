@@ -165,13 +165,13 @@ public class Main {
             }
         }
 
-//        // run full mip model
-//        if (algorithm.equals("mip")) {
-//            MIPFull mip = new MIPFull(inst, solution, 2, timeLimit, seed, mipFocus, verbose, threads, fixOptTimeLimit);
-//            mip.setModelParams();
-//            mip.solveModel();
-//            return;
-//        }
+        // run full mip model if requested
+        if (algorithm.equals("mip")) {
+            MIPFull mip = new MIPFull(inst, solution, 2, timeLimit, seed, mipFocus, verbose, threads, fixOptTimeLimit);
+            mip.setModelParams();
+            mip.solveModel();
+            return;
+        }
 
         // creating mip model
         int phase = solution.isFeasible() ? 2 : 1;

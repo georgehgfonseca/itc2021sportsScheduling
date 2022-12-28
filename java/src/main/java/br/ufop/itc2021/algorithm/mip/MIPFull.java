@@ -82,7 +82,7 @@ public class MIPFull {
                 }
             }
             model.update();
-        } catch (GRBException e) {
+        } catch (Exception e) {
             System.err.println("Solution could not be loaded!");
             e.printStackTrace();
         }
